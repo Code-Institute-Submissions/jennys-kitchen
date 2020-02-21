@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pinyon+Script&display=swap');
+
+/* ---Colors--- */
+
+.navbar {
+    background-color: #6b6054;
+}
+
+/* ---Navbar--- */
+
+.navbar {
+    width: 100%;
+    min-height: 100px;
+ }
+
+.navbar-brand {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 200%;
+    padding: 10px;
+}
