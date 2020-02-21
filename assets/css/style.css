@@ -3,7 +3,7 @@
 /* ---Colors--- */
 
 .navbar {
-    background-color: #6b6054;
+    background-color: #f2f3ae;
 }
 
 /* ---Navbar--- */
@@ -13,8 +13,17 @@
     min-height: 100px;
  }
 
-.navbar-brand {
+.navbar-light .navbar-brand {
     font-family: 'Pinyon Script', cursive;
     font-size: 200%;
     padding: 10px;
+    color: #000
+}
+
+.navbar-light .navbar-nav a.nav-link,.active>.nav-link {
+    color:#000;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #000;
 }
