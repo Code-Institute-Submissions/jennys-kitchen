@@ -79,13 +79,13 @@ padding-top: 20px;
 
 footer {
     font-family: 'Oswald', sans-serif;
-    color: #000;
+    color: rgb(61, 34, 6);
     text-align: center;
 }
 
 footer i {
-    color: #000;
-}
+    color: rgb(61, 34, 6);
+} 
 
 /* ---Hover--- */
 
