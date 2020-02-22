@@ -37,3 +37,16 @@ padding-top: 20px;
     display: block;
     text-align: center;
 }
+
+
+/* ---Carousel--- */
+
+/* Credit to anantajitjg on GitHub: https://github.com/twbs/bootstrap/issues/24657#issuecomment-360552841 
+- solves issue of white space between carousel slides on transition */
+.carousel-item {
+	transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+	transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+	-webkit-backface-visibility: visible;
+	        backface-visibility: visible;
+}
