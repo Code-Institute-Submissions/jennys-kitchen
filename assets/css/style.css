@@ -28,7 +28,7 @@ footer {
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
     color: rgb(61, 34, 6);
-    text-shadow: 0.5px 1px rgb(61, 34, 6, 0.5); 
+    text-shadow: 0.5px .5px rgb(61, 34, 6, 0.5); 
 }
 
 .nav-link {
@@ -43,6 +43,10 @@ padding-top: 20px;
     height: 100px;
     text-decoration: none;
     color: rgb(61, 34, 6, .8);
+}
+
+.nav-item:last-of-type {
+    padding-right: 10px;
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
@@ -75,18 +79,6 @@ padding-top: 20px;
 /* ---Headings--- */
 
 
-/* ---Footer--- */
-
-footer {
-    font-family: 'Oswald', sans-serif;
-    color: rgb(61, 34, 6);
-    text-align: center;
-}
-
-footer i {
-    color: rgb(61, 34, 6);
-} 
-
 /* ---Hover--- */
 
 /* http://ianlunn.github.io/Hover/ */
@@ -95,7 +87,7 @@ footer i {
     display: inline-block;
     vertical-align: middle;
     transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px rgb(61, 34, 6, 0);
     backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
     transition-duration: 0.3s;
@@ -107,3 +99,20 @@ footer i {
 .hvr-grow:active {
     transform: scale(1.1);
 }
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(61, 34, 6, .7);
+}
+
+/* ---Footer--- */
+
+footer {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(61, 34, 6);
+    text-align: center;
+}
+
+footer i {
+    color: rgb(61, 34, 6);
+}
+
