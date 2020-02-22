@@ -19,11 +19,16 @@ footer {
  }
 
 .navbar-light .navbar-brand {
+    margin-left: 16px; 
     font-family: 'Pinyon Script', cursive;
     font-size: 220%;
     padding: 20px;
     color: rgb(61, 34, 6);
-    margin-left: 16px; 
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgb(61, 34, 6);
+    text-shadow: 0.5px 1px rgb(61, 34, 6, 0.5); 
 }
 
 .nav-link {
@@ -80,4 +85,25 @@ footer {
 
 footer i {
     color: #000;
+}
+
+/* ---Hover--- */
+
+/* http://ianlunn.github.io/Hover/ */
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
 }
