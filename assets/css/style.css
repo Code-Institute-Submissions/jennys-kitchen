@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,600,700|Pinyon+Script&display=swap');
 
 /* ---Colors--- */
 
@@ -88,6 +88,7 @@ h1,h2,h3,h4 {
 
 .heading {
     color: #ecebe4;
+    font-family: "Open Sans", sans-serif;
 }
 
 .uppercase {
