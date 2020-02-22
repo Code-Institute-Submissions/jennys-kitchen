@@ -6,6 +6,10 @@
     background-color: #f2f3ae;
 }
 
+.bg-main-content {
+    background-color: rgb(61, 34, 6);
+}
+
 footer {
     background-color: #f2f3ae;
 }
@@ -78,7 +82,44 @@ padding-top: 20px;
 
 /* ---Headings--- */
 
+h1,h2,h3,h4 {
+    margin: 0;
+}
 
+.heading {
+    color: #ecebe4;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/* ---Layout--- */
+
+.section-column {
+    text-align: center;
+    padding: 15px;
+    margin: 20px 0px;
+    
+}
+
+.content-block {
+    color: #ecebe4;
+    font-family: 'Oswald', sans-serif;
+    padding: 5px;
+}
+
+/* ---Borders--- */
+.bg-main-content .section-column {
+    border: 1px solid blue;
+    border-radius: 20px;
+}
+
+.content-block {
+    border: 1px solid red;
+    border-radius: 20px;
+}
 /* ---Hover--- */
 
 /* http://ianlunn.github.io/Hover/ */
