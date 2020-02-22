@@ -56,9 +56,17 @@ padding-top: 20px;
 	        backface-visibility: visible;
 }
 
+/* ---Headings--- */
+
+
 /* ---Footer--- */
 
 footer {
     font-family: 'Oswald', sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+footer i {
     color: #000;
 }
