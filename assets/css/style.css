@@ -78,6 +78,40 @@ padding-top: 20px;
 
 /* ---Carousel--- */
 
+.carousel-outer {
+    padding: 0;
+}
+
+#herocarousel {
+position: relative;
+}
+
+.carousel-overlay {
+position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: rgb(255, 255, 231);
+    z-index: 1;
+}
+
+.overlay-header {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 1.5rem;   
+}
+
+.overlay-text .lead {
+    font-family: "Open Sans", sans-serif;
+}
 /* Credit to anantajitjg on GitHub: https://github.com/twbs/bootstrap/issues/24657#issuecomment-360552841 
 - solves issue of white space between carousel slides on transition */
 .carousel-item {
@@ -213,3 +247,17 @@ footer i {
     color: rgb(61, 34, 6);
 }
 
+/* ---Media Queries--- */
+@media screen and (min-width: 576px) {
+    .overlay-header {
+        font-family: 'Pinyon Script', cursive;
+        font-size: 3rem; 
+    }
+}
+
+@media screen and (min-width: 570px) {
+    .overlay-header {
+        font-family: 'Pinyon Script', cursive;
+        font-size: 3rem; 
+    }
+}
