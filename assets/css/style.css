@@ -93,7 +93,7 @@ h1,h2,h3,h4 {
 .heading {
     color: rgb(255, 255, 231);
     font-family: "Open Sans", sans-serif;
-    padding: 7.5px;
+    padding: 10px;
 }
 
 .uppercase {
@@ -116,10 +116,19 @@ h1,h2,h3,h4 {
     padding: 15px;
 }
 
+.img-block {
+    margin-bottom: 10px;
+}
+
+
 /* ---Borders--- */
 
 .content-block {
     border: 1px solid rgb(111, 78, 51);
+    border-radius: 20px;
+}
+
+.img-block img {
     border-radius: 20px;
 }
 
