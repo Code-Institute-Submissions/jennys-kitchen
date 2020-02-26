@@ -129,7 +129,6 @@ h1,h2,h3,h4 {
 }
 
 .heading {
-    color: rgb(255, 255, 231);
     font-family: "Open Sans", sans-serif;
     padding: 10px;
 }
@@ -138,6 +137,13 @@ h1,h2,h3,h4 {
     text-transform: uppercase;
 }
 
+.offwhite {
+    color: rgb(255, 255, 231);
+}
+
+.brown {
+    color:rgb(61, 34, 6)
+}
 
 /* ---Layout--- */
 
@@ -179,6 +185,20 @@ h1,h2,h3,h4 {
 .btn-content:hover {
     background-color: rgb(37, 13, 0);
     border: 1px solid rgb(37, 13, 0);
+}
+
+/* ---Block Dividers--- */
+
+.blockdivider {
+    margin: 2px 0 4px 0;
+    height: 1px;
+    border: 0;
+    background-color: rgb(61, 34, 6);
+    text-align: center;
+}
+
+.blockdivider-short {
+    width: 30%;
 }
 
 /* ---Hover--- */
@@ -238,13 +258,35 @@ footer .list-inline-item: focus, footer .list-inline-item: hover {
 /* ---Footer--- */
 
 footer {
+
+}
+
+.footer-details {
     font-family: 'Oswald', sans-serif;
     color: rgb(61, 34, 6);
-    text-align: center;
+    text-align: center;   
+}
+
+footer a:focus, footer a:hover {
+    color: rgb(61, 34, 6, .7);
+    text-decoration: none;
 }
 
 footer i {
     color: rgb(61, 34, 6);
+}
+
+.footer-header {
+    margin-top: 20px;
+}
+
+.footer-content {
+font-size: 70%;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* ---Media Queries--- */
