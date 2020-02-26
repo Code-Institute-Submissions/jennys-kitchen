@@ -111,6 +111,7 @@ position: absolute;
 
 .overlay-text .lead {
     font-family: "Open Sans", sans-serif;
+    font-size: 0.75rem;
 }
 /* Credit to anantajitjg on GitHub: https://github.com/twbs/bootstrap/issues/24657#issuecomment-360552841 
 - solves issue of white space between carousel slides on transition */
@@ -290,16 +291,25 @@ footer a {
 }
 
 /* ---Media Queries--- */
+@media screen and (min-width: 410px) {
+    .overlay-header {
+        font-family: 'Pinyon Script', cursive;
+        font-size: 2rem; 
+    }
+
+    .overlay-text .lead {
+        font-size: 1rem;
+    }
+}
+
 @media screen and (min-width: 576px) {
     .overlay-header {
         font-family: 'Pinyon Script', cursive;
         font-size: 3rem; 
     }
-}
 
-@media screen and (min-width: 570px) {
-    .overlay-header {
-        font-family: 'Pinyon Script', cursive;
-        font-size: 3rem; 
+    .overlay-text .lead {
+        font-size: 1.5rem;
     }
+}
 }
