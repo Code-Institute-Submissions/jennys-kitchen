@@ -79,6 +79,34 @@ padding-top: 20px;
     text-align: center;
 }
 
+/* ---Logo--- */
+
+.navbar-brand {
+position: relative;
+}
+
+.logo {
+width: 75px;
+position: relative;
+display: inline-block;
+}
+
+.navbar-brand .img-top {
+        display: none;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 99;
+    }
+    
+.navbar-brand:hover .img-top {
+        display: inline;
+    }
+
+.brandname {
+margin-left: 20px;
+}
+
 /* ---Dropdown Menu--- */
 
 .dropdown-menu {
