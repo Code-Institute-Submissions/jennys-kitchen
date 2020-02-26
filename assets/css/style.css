@@ -10,6 +10,10 @@ body {
     background-color: rgb(255, 255, 231);
 }
 
+.dropdown-menu, .dropdown-item {
+    background-color: rgb(255, 255, 231);
+}
+
 .bg-main-content {
     background-color: rgb(61, 34, 6);
 }
@@ -75,6 +79,20 @@ padding-top: 20px;
     text-align: center;
 }
 
+/* ---Dropdown Menu--- */
+
+.dropdown-menu {
+    margin-top: 0;
+}
+
+.dropdown-item {
+    color: rgb(61, 34, 6)
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: rgb(61, 34, 6);
+    color: rgb(255, 255, 231);
+}
 
 /* ---Carousel--- */
 
