@@ -236,16 +236,15 @@ h1,h2,h3,h4 {
 
 /* ---Block Dividers--- */
 
-.blockdivider {
-    margin: 2px 0 4px 0;
+.divider {
     height: 1px;
-    border: 0;
     background-color: rgb(61, 34, 6);
-    text-align: center;
 }
 
-.blockdivider-short {
-    width: 30%;
+.small {
+    width: 50%;
+    text-align:center; 
+    margin: 5px auto;
 }
 
 /* ---Hover--- */
