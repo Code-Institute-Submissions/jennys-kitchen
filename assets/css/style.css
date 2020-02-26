@@ -177,7 +177,7 @@ h1,h2,h3,h4 {
 
 .heading {
     font-family: "Open Sans", sans-serif;
-    padding: 10px;
+    padding-bottom: 15px;
 }
 
 .uppercase {
