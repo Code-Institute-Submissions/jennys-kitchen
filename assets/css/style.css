@@ -178,6 +178,7 @@ h1,h2,h3,h4 {
 .heading {
     font-family: "Open Sans", sans-serif;
     padding-bottom: 15px;
+    text-align: center;
 }
 
 .uppercase {
@@ -199,7 +200,6 @@ h1,h2,h3,h4 {
 }
 
 .section-column {
-    text-align: center;
     
 }
 
