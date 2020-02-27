@@ -220,6 +220,7 @@ h1,h2,h3,h4 {
     margin-bottom: 15px;
 }
 
+/* Spacer prevents buttons from overlapping text when screen resized - https://stackoverflow.com/questions/12357242/stop-absolutely-positioned-div-from-overlapping-text*/
 .spacer {
     width: 150px;
     height: 45px;
