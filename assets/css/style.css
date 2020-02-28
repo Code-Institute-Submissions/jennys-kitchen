@@ -238,16 +238,41 @@ h1,h2,h3,h4 {
     display: inline-block;
 }
 
+.allergen-box {
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.allergens {
+    height: 25px;
+}
+
+/* https://stackoverflow.com/questions/19708979/constraining-image-height-with-bootstrap-responsive-image */
+.allergens .img-fluid {
+    display: inline-block;
+    width: auto;
+    max-height: 100%;
+}
+
+.allergen-info {
+    display: inline;
+    font-size: .75rem;
+}
+
 /* ---Bookmarks--- */
 .bookmarks {
-    margin: 15px;
     text-align: center;
 }
 
 .bookmarks-item {
     display: inline-block;
-    padding-right: .5rem;
-    padding-left: .5rem;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.bookmarks-list {
+    margin: 15px 0;
+    padding: 0
 }
 
 /* ---Borders--- */
