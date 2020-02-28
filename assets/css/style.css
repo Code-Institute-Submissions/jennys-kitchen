@@ -4,6 +4,14 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 /* ---Colors--- */
 
 .navbar {
@@ -52,6 +60,8 @@ font-family: 'Oswald', sans-serif;
 text-align: center;
 font-size: 16px;
 padding-top: 20px;
+color: rgb(61, 34, 6);
+text-decoration: none;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -177,7 +187,7 @@ h1,h2,h3,h4 {
 
 .heading {
     font-family: "Open Sans", sans-serif;
-    padding-bottom: 15px;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -208,7 +218,7 @@ h1,h2,h3,h4 {
     font-family: 'Oswald', sans-serif;
     margin: 30px 10px;
     min-height: 375px;
-    padding: 15px;
+    padding: 0px 15px 15px;
     position: relative;
 }
 
@@ -228,6 +238,18 @@ h1,h2,h3,h4 {
     display: inline-block;
 }
 
+/* ---Bookmarks--- */
+.bookmarks {
+    margin: 15px;
+    text-align: center;
+}
+
+.bookmarks-item {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
 /* ---Borders--- */
 
 .content-block {
@@ -237,6 +259,14 @@ h1,h2,h3,h4 {
 
 .img-block img {
     border-radius: 20px;
+}
+
+.bookmarks-item {
+    border-right: 1px solid black;
+}
+
+.bookmarks-item:last-of-type {
+    border-right: none;
 }
 
 /* ---Buttons--- */
