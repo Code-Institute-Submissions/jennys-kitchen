@@ -248,14 +248,15 @@ h1,h2,h3,h4 {
     padding: 15px;
 }
 
+.allergen-key {
+    
+}
+
+/* Restrict size of allergen images - https://stackoverflow.com/questions/19708979/constraining-image-height-with-bootstrap-responsive-image */
 .allergens {
     height: 25px;
 }
 
-.meal-container {
-    margin: 15px;
-}
-/* https://stackoverflow.com/questions/19708979/constraining-image-height-with-bootstrap-responsive-image */
 .allergens .img-fluid {
     display: inline-block;
     width: auto;
@@ -265,6 +266,10 @@ h1,h2,h3,h4 {
 .allergen-info {
     display: inline;
     font-size: .75rem;
+}
+
+.meal-container {
+    margin: 15px;
 }
 
 /* ---Bookmarks--- */
