@@ -35,6 +35,15 @@ a:hover {
     color: rgb(255, 255, 231);
 }
 
+.meal-container {
+    background-color: rgb(61, 34, 6)
+}
+
+.item-wrapper {
+    background-color: rgb(111, 78, 51);
+    color: rgb(255, 255, 231);
+}
+
 footer {
     background-color: rgb(255, 255, 231);
 }
@@ -264,12 +273,22 @@ h1,h2,h3,h4 {
 }
 
 .allergen-info {
-    display: inline;
+    display: inline-block;
     font-size: .75rem;
 }
 
 .meal-container {
-    margin: 15px;
+    padding: 15px;
+}
+
+.item-wrapper {
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.item-image img {
+    padding: 15px;
+    border-radius: 30px;
 }
 
 /* ---Bookmarks--- */
@@ -335,10 +354,11 @@ h1,h2,h3,h4 {
 }
 
 .small {
-    width: 50%;
-    text-align:center; 
+    width: 50%; 
     margin: 5px auto;
+    text-align: center;
 }
+
 
 /* ---Hover--- */
 
