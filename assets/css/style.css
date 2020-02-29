@@ -262,11 +262,11 @@ h1,h2,h3,h4 {
 }
 
 /* Restrict size of allergen images - https://stackoverflow.com/questions/19708979/constraining-image-height-with-bootstrap-responsive-image */
-.allergens {
+.allergen-item {
     height: 25px;
 }
 
-.allergens .img-fluid {
+.allergens .allergen-item .img-fluid {
     display: inline-block;
     width: auto;
     max-height: 100%;
@@ -275,6 +275,11 @@ h1,h2,h3,h4 {
 .allergen-info {
     display: inline-block;
     font-size: .75rem;
+}
+
+.allergen-item {
+    margin: 5px;
+    display: inline-block;
 }
 
 .meal-container {
