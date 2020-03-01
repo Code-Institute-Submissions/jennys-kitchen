@@ -257,8 +257,8 @@ h1,h2,h3,h4 {
     padding: 15px;
 }
 
-.allergen-key {
-    
+.allergens {
+    text-align: center;
 }
 
 /* Restrict size of allergen images - https://stackoverflow.com/questions/19708979/constraining-image-height-with-bootstrap-responsive-image */
