@@ -430,7 +430,12 @@ h1,h2,h3,h4 {
     color: rgb(61, 34, 6, .7);
 }
 
-footer: focus, footer: hover {
+.bookmarks-list .bookmarks-link:focus, .bookmarks-list .bookmarks-link:hover {
+    color: rgb(61, 34, 6);
+    text-shadow: 0.5px .5px rgb(61, 34, 6, 0.5); 
+}
+
+footer:focus, footer:hover {
     color: rgb(61, 34, 6, .7);
 } 
 
