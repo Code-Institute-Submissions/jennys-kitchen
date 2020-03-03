@@ -369,6 +369,20 @@ h1,h2,h3,h4 {
     border: 1px solid rgb(37, 13, 0);
 }
 
+.button-wrapper {
+    text-align: center;
+}
+
+.allergens-button {
+    background-color: rgb(61, 34, 6);
+    border: 1px solid rgb(61, 34, 6);
+    margin: 30px;
+}
+
+.allergens-button:hover, .allergens-button:focus {
+    background-color: rgb(37, 13, 0);
+    border: 1px solid rgb(37, 13, 0);
+}
 
 /* ---Block Dividers--- */
 
