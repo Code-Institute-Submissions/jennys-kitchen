@@ -36,7 +36,7 @@ a:hover {
 }
 
 .meal-container {
-    background-color: rgb(61, 34, 6)
+    background-color: rgb(61, 34, 6);
 }
 
 .item-wrapper {
@@ -252,6 +252,13 @@ h1,h2,h3,h4 {
     display: inline-block;
 }
 
+.spacer-menu {
+    width: 150px;
+    height: 25px;
+    float: left;
+    display: inline-block;
+}
+
 .allergen-box {
     margin-bottom: 15px;
     padding: 15px;
@@ -289,11 +296,20 @@ h1,h2,h3,h4 {
 .item-wrapper {
     padding: 15px;
     border-radius: 30px;
+    position: relative;
 }
 
 .item-image img {
     padding: 15px;
     border-radius: 30px;
+}
+
+.item-wrapper .allergen-item {
+    position: absolute;
+    left: 15px;
+    bottom: 5px;
+    width: 150px;
+    height: 25px;
 }
 
 /* ---Bookmarks--- */
