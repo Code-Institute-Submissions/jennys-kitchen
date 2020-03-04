@@ -384,6 +384,18 @@ h1,h2,h3,h4 {
     border: 1px solid rgb(37, 13, 0);
 }
 
+.top-button {
+    position: fixed;
+    bottom: 10%;
+    right: 0;
+    border: 5px solid rgb(255, 255, 231);
+    background-color: rgb(255, 255, 231);
+    color: rgb(37, 13, 0);
+    font-size: 24px;
+    z-index: 1;
+
+}
+
 /* ---Block Dividers--- */
 
 .divider {
