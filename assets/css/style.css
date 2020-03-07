@@ -450,7 +450,7 @@ h1,h2,h3,h4 {
 }
 
 .order-form {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -571,6 +571,10 @@ footer a {
 
     .overlay-text .lead {
         font-size: 1.5rem;
+    }
+
+    .order-form {
+        width: 80%;
     }
 }
 
