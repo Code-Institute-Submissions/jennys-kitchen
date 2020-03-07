@@ -57,32 +57,36 @@
 			</ul>
 		</div>
 	</nav>
-    <div class="container-fluid order-container">
+    <section class="container-fluid order-container">
 		<div class="opaque-overlay">&nbsp;</div>
 		<div class="row">
 			<div class="col-12">
-                <section class="jumbotron">
+                <div id="jumbotron">
                     <h1 class="order-header heading uppercase offwhite">Place an order</h1>
-                    <form>
+                    <div class="order-form">
+                    <form action="#" onsubmit="return alert('Thank you for your order.')">
                     <div class="form-group">
                         <div class="row">
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="First name" required>
+                            <div class="col-12 col-sm-6">
+                                <label class="sr-only" for="firstname">First name</label>
+                                <input type="text" class="form-control" id="firstname" placeholder="First name" required>
                             </div>
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Last name" required>
+                            <div class="col-12 col-sm-6">
+                                <label class="sr-only" for="lastname">Last name</label>
+                                <input type="text" class="form-control" id="lastname" placeholder="Last name" required>
                             </div>
                         </div>
                         </div>
                         <div class="form-group">
                         <div class="row">
                             <div class="col">
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email address" aria-describedby="emailHelp" required>
+                                <label class="sr-only" for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email address" aria-describedby="emailHelp" required>
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                             </div>    
                         </div>
                         </div>
-                        <h5 class="offwhite uppercase">What allergies do you have?</h5>
+                        <h5 class="offwhite uppercase heading">What allergies do you have?</h5>
                         <div class="form-group form-check form-check-inline">
                             <input type="checkbox" class="form-check-input allergens" id="cereals">
                             <label class="form-check-label offwhite" for="cereals">Cereals containing gluten</label>
@@ -140,15 +144,21 @@
                             <label class="form-check-label offwhite" for="molluscs">Molluscs</label>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="What would you like to order?" required></textarea>
+                            <label class="sr-only" for="orderbox">What would you like to order?</label>
+                            <textarea class="form-control" id="orderbox" rows="5" placeholder="What would you like to order?" required></textarea>
                         </div>
-
+                        <div class="form-group">
+                            <h5 class="offwhite uppercase heading">Collection Date</h5>
+                            <label class="sr-only" for="collection">Collection date</label>
+                            <input type="date" id="collection" class="form-control" placeholder="Collection date" required>
+                        </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
-                </section>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <footer class="container-fluid">
 		<div class="row">
 			<div class="col-12 col-md-4 footer-details">
