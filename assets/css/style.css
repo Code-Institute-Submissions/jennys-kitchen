@@ -411,7 +411,7 @@ h1,h2,h3,h4 {
 
 /* ---Jumbotron--- */
 .order-container {
-    height: 100vh;
+    padding: 30px;
     background: url(../images/cooking-1940689.jpg) no-repeat top left fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -432,8 +432,19 @@ h1,h2,h3,h4 {
     background-color: rgba(0,0,0,0.6);
 }
 
-.jumbotron {
+#jumbotron {
     background-color: transparent;
+    margin-top: 0;
+    padding: 0;
+}
+
+.order-form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form-control {
+    margin: .375rem; /* Match padding value - add space between fields on smaller screens */
 }
 
 /* ---Hover--- */
