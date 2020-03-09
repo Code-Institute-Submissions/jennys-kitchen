@@ -395,7 +395,7 @@ h1,h2,h3,h4 {
     position: fixed;
     bottom: 10%;
     right: 0;
-    border: 5px solid rgb(255, 255, 231);
+    border: 8px solid rgb(255, 255, 231);
     background-color: rgb(255, 255, 231);
     color: rgb(37, 13, 0);
     font-size: 24px;
