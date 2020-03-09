@@ -457,6 +457,10 @@ h1,h2,h3,h4 {
     margin: 0 auto;
 }
 
+#emailHelp {
+    color: rgb(255, 255, 231)!important; /* Override Bootstrap's !important declaration */
+}
+
 .form-control {
     margin: .375rem; /* Match padding value - add space between fields on smaller screens */
 }
