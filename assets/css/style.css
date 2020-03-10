@@ -27,21 +27,17 @@ a:hover {
     background-color: rgb(255, 255, 231);
 }
 
-.bg-main-content {
+.bg-darkbrown {
     background-color: rgb(61, 34, 6);
 }
 
-.content-block {
+.bg-brown {
     background-color: rgb(111, 78, 51);
 }
 
 .allergen-box {
     background-color: rgb(111, 78, 51);
     color: rgb(255, 255, 231);
-}
-
-.meal-container {
-    background-color: rgb(61, 34, 6);
 }
 
 .item-wrapper {
