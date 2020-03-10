@@ -344,7 +344,7 @@ h1,h2,h3,h4 {
 }
 
 .bookmarks-item {
-    border-right: 1px solid black;
+    border-right: 1px solid rgb(255, 255, 231);
 }
 
 .bookmarks-item:last-of-type {
@@ -416,6 +416,11 @@ h1,h2,h3,h4 {
 .divider {
     height: 1px;
     background-color: rgb(61, 34, 6);
+}
+
+.divider-offwhite {
+    height: 1px;
+    background-color: rgb(255, 255, 231);
 }
 
 .small {
@@ -517,8 +522,8 @@ h1,h2,h3,h4 {
 }
 
 .bookmarks-list .bookmarks-link:focus, .bookmarks-list .bookmarks-link:hover {
-    color: rgb(61, 34, 6);
-    text-shadow: 0.5px .5px rgb(61, 34, 6, 0.5); 
+    color: rgb(255, 255, 231);
+    text-shadow: 0.5px .5px rgb(255, 255, 231, 0.5); 
 }
 
 footer:focus, footer:hover {
