@@ -339,6 +339,7 @@ h1,h2,h3,h4 {
     top: 0;
     margin: 0 auto;
     transform: translateY(-50%);
+    z-index: 2;
 }
 
 .circle-bg {
@@ -347,8 +348,19 @@ h1,h2,h3,h4 {
     border-radius: 50%;
 }
 
+.message-padding {
+    padding: 200px 0 0 0;
+}
+
 .message-wrapper {
-    padding-top: 200px;
+    background-color: rgb(61, 34, 6);
+    padding: 0 30px 30px 30px;
+}
+
+.message-content {
+    background-color: rgb(111, 78, 51);
+    border-radius: 30px;
+    padding: 30px;
 }
 
 /* ---Bookmarks--- */
