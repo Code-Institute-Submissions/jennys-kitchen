@@ -320,6 +320,35 @@ h1,h2,h3,h4 {
     height: 25px;
 }
 
+/* Circle containing Jenny's image */
+.circle-wrapper {
+    position: relative;
+    background-color: blue;
+}
+
+.circle-container {
+    width: 300px;
+    height: 300px;
+    padding:15px;
+    border-style: solid;
+    border-color:red;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 30px auto;
+
+
+}
+
+.circle-bg {
+    background: url("../images/10933822_633781693411714_96073657300284445_n.jpg") no-repeat 50% 30%;
+    height:100%;
+    border-radius: 50%;
+}
+
+.message-wrapper {
+
+}
+
 /* ---Bookmarks--- */
 .bookmarks {
     text-align: center;
