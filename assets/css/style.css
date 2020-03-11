@@ -214,6 +214,10 @@ h1,h2,h3,h4 {
     margin: 15px;
 }
 
+.allergen-key {
+    text-align: center;
+}
+
 .offwhite {
     color: rgb(255, 255, 231);
 }
