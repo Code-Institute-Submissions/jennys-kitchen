@@ -435,7 +435,7 @@ h1,h2,h3,h4 {
     text-align: center;
 }
 
-/* ---Jumbotron--- */
+/* ---Order Form Jumbotron--- */
 .order-container {
     padding: 30px;
     background: url(../images/cooking-1940689.jpg) no-repeat top left fixed; 
@@ -475,6 +475,36 @@ h1,h2,h3,h4 {
 
 .form-control {
     margin-bottom: 15px; /* Match padding value - add space between fields on smaller screens */
+}
+
+/* ---About Us Jumbotron--- */
+.about-container {
+    padding: 30px;
+    background: url(../images/bakery-567378_1280.jpg) no-repeat bottom center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 400px;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+#about-jumbotron {
+    background-color: transparent;
+    margin-top: 0;
+    padding: 0;
 }
 
 /* ---Hover--- */
