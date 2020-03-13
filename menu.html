@@ -63,7 +63,7 @@
 		</div>
 	</nav>
     <!--Navigation arrow to bring user back to top of page-->
-    <a href="#menu-top"><div class="top-button"><i class="fas fa-angle-double-up"></i></div></a>
+    <a data-scroll href="#menu-top"><div class="top-button"><i class="fas fa-angle-double-up"></i></div></a>
 	<!--Menu header and bookmarks-->
     <div class="bg-darkbrown">
         <h1 class="heading uppercase offwhite" id="menu-top">Menu</h1>
@@ -74,16 +74,16 @@
 				<div class="bookmarks">
 					<ul class="bookmarks-list">
 						<li class="bookmarks-item">
-							<a class="bookmarks-link hvr-grow offwhite" href="#breakfast">Breakfast</a>
+							<a class="bookmarks-link hvr-grow offwhite" data-scroll href="#breakfast">Breakfast</a>
 						</li>
 						<li class="bookmarks-item">
-							<a class="bookmarks-link hvr-grow offwhite" href="#bread">Bread</a>
+							<a class="bookmarks-link hvr-grow offwhite" data-scroll href="#bread">Bread</a>
 						</li>
 						<li class="bookmarks-item">
-							<a class="bookmarks-link hvr-grow offwhite" href="#pastry">Pastry</a>
+							<a class="bookmarks-link hvr-grow offwhite" data-scroll href="#pastry">Pastry</a>
 						</li>
 						<li class="bookmarks-item">
-							<a class="bookmarks-link hvr-grow offwhite" href="#cake">Cake</a>
+							<a class="bookmarks-link hvr-grow offwhite" data-scroll href="#cake">Cake</a>
 						</li>
 					</ul>
 				</div>
@@ -507,16 +507,28 @@
 						</ul>
 					</div>
 				</div>
+
+                
+
 			</footer>
 
-
-
+            
+                
+            
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js">
 			</script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
 			</script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js">
 			</script>
+            <!--Smooth scroll script-->
+            <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@16.1.2/dist/smooth-scroll.polyfills.min.js"></script> 
+
+                <script>
+                    var scroll = new SmoothScroll('a[href*="#"]', { 
+                    speed: 350,
+                    });
+                </script>
 </body>
 
 </html>
