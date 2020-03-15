@@ -18,10 +18,13 @@
 </head>
 
 <body>
+<!--Navbar-->
 	<nav class="navbar navbar-expand-md navbar-light">
-		<a class="navbar-brand" href="/"><img src="/assets/images/jennys-kitchen_logo_white.png" class="img-fluid logo" alt="Jenny's Kitchen logo" />
-			<img src="/assets/images/jennys-kitchen_logo_brown.png" class="img-fluid img-top logo" alt="Jenny's Kitchen logo" />
-			<span class="brandname d-none d-md-inline-block">Jenny's Kitchen</span></a>
+		<a class="navbar-brand" href="/"><img src="assets/images/jennys-kitchen_logo_white.png" class="img-fluid logo" alt="Jenny's Kitchen logo" />
+			<!--Img-top appears on hover as position changes from absolute to inline . Credit: Tutorial Republic, https://www.tutorialrepublic.com/faq/how-to-change-image-on-hover-with-css.php-->
+            <img src="assets/images/jennys-kitchen_logo_brown.png" class="img-fluid img-top logo" alt="Jenny's Kitchen logo" />
+			<!--Hide brand name and leave only logo for spacing on mobile view-->
+            <span class="brandname d-none d-md-inline-block">Jenny's Kitchen</span></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -41,10 +44,10 @@
 						<span>Menu</span> <span class="sr-only">(current)</span>
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="/menu.html#breakfast">Breakfast</a>
-						<a class="dropdown-item" href="/menu.html#bread">Bread</a>
-						<a class="dropdown-item" href="/menu.html#pastry">Pastry</a>
-						<a class="dropdown-item" href="/menu.html#cake">Cake</a>
+						<a class="dropdown-item" href="menu.html#breakfast">Breakfast</a>
+						<a class="dropdown-item" href="menu.html#bread">Bread</a>
+						<a class="dropdown-item" href="menu.html#pastry">Pastry</a>
+						<a class="dropdown-item" href="menu.html#cake">Cake</a>
 					</div>
 				</li>
 				<li class="nav-item">
@@ -62,7 +65,7 @@
 			</ul>
 		</div>
 	</nav>
-    <!--Navigation arrow, fixed to right hand side of screen, to bring user back to top of page-->
+    <!--Navigation arrow, fixed to right hand side of screen, to bring user back to top of page. Data-scroll class makes this smooth-->
     <a data-scroll href="#menu-top"><div class="top-button"><i class="fas fa-angle-double-up"></i></div></a>
 	<!--Menu header and bookmarks-->
     <div class="bg-darkbrown">
@@ -74,7 +77,8 @@
 				<div class="bookmarks">
 					<ul class="bookmarks-list">
 						<li class="bookmarks-item">
-							<a class="bookmarks-link hvr-grow offwhite" data-scroll href="#breakfast">Breakfast</a>
+							<!--Data-scroll class ensures a smooth scroll to bookmarks-->
+                            <a class="bookmarks-link hvr-grow offwhite" data-scroll href="#breakfast">Breakfast</a>
 						</li>
 						<li class="bookmarks-item">
 							<a class="bookmarks-link hvr-grow offwhite" data-scroll href="#bread">Bread</a>
@@ -96,33 +100,33 @@
 			<div class="col-12 allergen-key">
 				<span class="uppercase">Allergens</span>
 				<div class="allergens">
-					<!--<span class="allergen-item"><img src="/assets/images/gluten-amber_109461.png" class="img-fluid" alt="Cereals containing gluten" />
+					<!--<span class="allergen-item"><img src="assets/images/gluten-amber_109461.png" class="img-fluid" alt="Cereals containing gluten" />
 					<p class="allergen-info">Cereals Containing Gluten</p></span>-->
-					<span class="allergen-item"><img src="/assets/images/crustacens-amber_109473.png" class="img-fluid" alt="Crustacens" />
+					<span class="allergen-item"><img src="assets/images/crustacens-amber_109473.png" class="img-fluid" alt="Crustacens" />
 					<span class="allergen-info">Crustacens</span></span>
-					<span class="allergen-item"><img src="/assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" />
+					<span class="allergen-item"><img src="assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" />
 					<span class="allergen-info">Eggs</span></span>
-					<span class="allergen-item"><img src="/assets/images/fish-amber_109474.png" class="img-fluid" alt="Fish" />
+					<span class="allergen-item"><img src="assets/images/fish-amber_109474.png" class="img-fluid" alt="Fish" />
 					<span class="allergen-info">Fish</span></span>
-					<span class="allergen-item"><img src="/assets/images/peanut-amber_109463.png" class="img-fluid" alt="Peanuts" />
+					<span class="allergen-item"><img src="assets/images/peanut-amber_109463.png" class="img-fluid" alt="Peanuts" />
 					<span class="allergen-info">Peanuts</span></span>
-					<span class="allergen-item"><img src="/assets/images/soya-amber_109468.png" class="img-fluid" alt="Soya" />
+					<span class="allergen-item"><img src="assets/images/soya-amber_109468.png" class="img-fluid" alt="Soya" />
 					<span class="allergen-info">Soya</span></span>
-					<span class="allergen-item"><img src="/assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
+					<span class="allergen-item"><img src="assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
 					<span class="allergen-info">Milk</span></span>
-					<span class="allergen-item"><img src="/assets/images/treenut-amber_109469.png" class="img-fluid" alt="Nuts" />
+					<span class="allergen-item"><img src="assets/images/treenut-amber_109469.png" class="img-fluid" alt="Nuts" />
 					<span class="allergen-info">Nuts</span></span>
-					<span class="allergen-item"><img src="/assets/images/celery-amber_109471.png" class="img-fluid" alt="Celery" />
+					<span class="allergen-item"><img src="assets/images/celery-amber_109471.png" class="img-fluid" alt="Celery" />
 					<span class="allergen-info">Celery</span></span>
-					<span class="allergen-item"><img src="/assets/images/mustard-amber_109467.png" class="img-fluid" alt="Mustard" />
+					<span class="allergen-item"><img src="assets/images/mustard-amber_109467.png" class="img-fluid" alt="Mustard" />
 					<span class="allergen-info">Mustard</span></span>
-					<span class="allergen-item"><img src="/assets/images/sesame-amber_109472.png" class="img-fluid" alt="Sesame Seeds" />
+					<span class="allergen-item"><img src="assets/images/sesame-amber_109472.png" class="img-fluid" alt="Sesame Seeds" />
 					<span class="allergen-info">Sesame Seeds</span></span>
-					<span class="allergen-item"><img src="/assets/images/sulphurdioxide-amber_109470.png" class="img-fluid" alt="Sulphites" />
+					<span class="allergen-item"><img src="assets/images/sulphurdioxide-amber_109470.png" class="img-fluid" alt="Sulphites" />
 					<span class="allergen-info">Sulphites</span></span>
-					<span class="allergen-item"><img src="/assets/images/lupin-amber_109465.png" class="img-fluid" alt="Lupin" />
+					<span class="allergen-item"><img src="assets/images/lupin-amber_109465.png" class="img-fluid" alt="Lupin" />
 					<span class="allergen-info">Lupin</span></span>
-					<span class="allergen-item"><img src="/assets/images/molluscs-amber_109462.png" class="img-fluid" alt="Molluscs" />
+					<span class="allergen-item"><img src="assets/images/molluscs-amber_109462.png" class="img-fluid" alt="Molluscs" />
 					<span class="allergen-info">Molluscs</span></span>
 				</div>
 			</div>
@@ -135,7 +139,7 @@
 			<div class="col-12 col-md-4 meal-container bg-darkbrown breakfast-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-						<img class="img-fluid" src="/assets/images/croissant-410322_1280.jpg" alt="Croissant" />
+						<img class="img-fluid" src="assets/images/croissant-410322_1280.jpg" alt="Croissant" />
                     </div>
 					<h4 class="item-title heading uppercase">Croissant</h4>
 					<div class="item-content">
@@ -143,14 +147,14 @@
 					</div>
                     <div class="spacer-menu"></div>
 					<div class="allergen-item">
-						<img src="/assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="/assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
+						<img src="assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
                     </div>
 				</div>
             </div>
 			<div class="col-12 col-md-4 meal-container bg-darkbrown breakfast-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-                    	<img class="img-fluid" src="/assets/images/sam-edwards-K527mBnqBM0-unsplash.jpg" alt="Scone" />
+                    	<img class="img-fluid" src="assets/images/sam-edwards-K527mBnqBM0-unsplash.jpg" alt="Scone" />
                     </div>
 					<h4 class="item-title heading uppercase">Scone</h4>
 					<div class="item-content">
@@ -158,14 +162,14 @@
 					</div>
                     <div class="spacer-menu"></div>
 					<div class="allergen-item">
-						<img src="/assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="/assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
+						<img src="assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
                     </div>
 				</div>
 			</div>
             <div class="col-12 col-md-4 meal-container bg-darkbrown breakfast-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-                    	<img class="img-fluid" src="/assets/images/nikldn-qp7WA8AV2x0-unsplash.jpg" alt="Pancakes" />
+                    	<img class="img-fluid" src="assets/images/nikldn-qp7WA8AV2x0-unsplash.jpg" alt="Pancakes" />
                     </div>
 					<h4 class="item-title heading uppercase">Pancakes</h4>
 					<div class="item-content">
@@ -173,7 +177,7 @@
 					</div>
                     <div class="spacer-menu"></div>
 					<div class="allergen-item">
-						<img src="/assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="/assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
+						<img src="assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
                     </div>
 				</div>
 			</div>
@@ -182,7 +186,7 @@
 			<div class="col-12 col-md-4 meal-container bg-darkbrown breakfast-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-						<img class="img-fluid" src="/assets/images/cinnamon-rolls-4004514_1280.jpg" alt="Cinnamon Roll" />
+						<img class="img-fluid" src="assets/images/cinnamon-rolls-4004514_1280.jpg" alt="Cinnamon Roll" />
                     </div>
 					<h4 class="item-title heading uppercase">Cinnamon Roll</h4>
 					<div class="item-content">
@@ -193,7 +197,7 @@
 			<div class="col-12 col-md-4 meal-container bg-darkbrown breakfast-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-                    	<img class="img-fluid" src="/assets/images/muffins-4002553_1280.jpg" alt="Scone" />
+                    	<img class="img-fluid" src="assets/images/muffins-4002553_1280.jpg" alt="Scone" />
                     </div>
 					<h4 class="item-title heading uppercase">Savory Muffins</h4>
 					<div class="item-content">
@@ -204,7 +208,7 @@
             <div class="col-12 col-md-4 meal-container bg-darkbrown breakfast-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-                    	<img class="img-fluid" src="/assets/images/bread-2459926_1280.jpg" alt="Banana Bread" />
+                    	<img class="img-fluid" src="assets/images/bread-2459926_1280.jpg" alt="Banana Bread" />
                     </div>
 					<h4 class="item-title heading uppercase">Banana Bread</h4>
 					<div class="item-content">
@@ -221,7 +225,7 @@
 			<div class="col-12 col-md-4 meal-container bg-darkbrown bread-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-						<img class="img-fluid" src="/assets/images/jorgen-haland-PvAl4A6hHh8-unsplash.jpg" alt="White rice loaf" />
+						<img class="img-fluid" src="assets/images/jorgen-haland-PvAl4A6hHh8-unsplash.jpg" alt="White rice loaf" />
                     </div>
 					<h4 class="item-title heading uppercase">White rice loaf</h4>
 					<div class="item-content">
@@ -245,7 +249,7 @@
             <div class="col-12 col-md-4 meal-container bg-darkbrown bread-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-						<img class="img-fluid" src="/assets/images/bagels-3777460_1280.jpg" alt="Bagels" />
+						<img class="img-fluid" src="assets/images/bagels-3777460_1280.jpg" alt="Bagels" />
                     </div>
 					<h4 class="item-title heading uppercase">Bagels</h4>
 					<div class="item-content">
@@ -253,7 +257,7 @@
 					</div>
                     <div class="spacer-menu"></div>
 					<div class="allergen-item">
-						<img src="/assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="/assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" /> <img src="/assets/images/soya-amber_109468.png" class="img-fluid" alt="Soya" /> <img src="/assets/images/sesame-amber_109472.png" class="img-fluid" alt="Sesame Seeds" />
+						<img src="assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" /> <img src="assets/images/soya-amber_109468.png" class="img-fluid" alt="Soya" /> <img src="assets/images/sesame-amber_109472.png" class="img-fluid" alt="Sesame Seeds" />
                     </div>
 				</div>
             </div>
@@ -262,7 +266,7 @@
 			<div class="col-12 col-md-4 meal-container bg-darkbrown bread-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-						<img class="img-fluid" src="/assets/images/focaccia-3771454_1280.jpg" alt="Herbed focaccia bread with cherry tomatoes" />
+						<img class="img-fluid" src="assets/images/focaccia-3771454_1280.jpg" alt="Herbed focaccia bread with cherry tomatoes" />
                     </div>
 					<h4 class="item-title heading uppercase">Herbed focaccia bread</h4>
 					<div class="item-content">
@@ -274,7 +278,7 @@
 			<div class="col-12 col-md-4 meal-container bg-darkbrown bread-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-                    	<img class="img-fluid" src="/assets/images/bread-2436370_1280.jpg" alt="Baguette" />
+                    	<img class="img-fluid" src="assets/images/bread-2436370_1280.jpg" alt="Baguette" />
                     </div>
 					<h4 class="item-title heading uppercase">Baguette</h4>
 					<div class="item-content">
@@ -286,7 +290,7 @@
             <div class="col-12 col-md-4 meal-container bg-darkbrown bread-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-						<img class="img-fluid" src="/assets/images/focaccia-2241106_1280.jpg" alt="Olive stuffed Focaccia" />
+						<img class="img-fluid" src="assets/images/focaccia-2241106_1280.jpg" alt="Olive stuffed Focaccia" />
                     </div>
 					<h4 class="item-title heading uppercase">Olive stuffed Focaccia</h4>
 					<div class="item-content">
@@ -303,7 +307,7 @@
 			<div class="col-12 col-md-4 meal-container bg-darkbrown pastry-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-						<img class="img-fluid" src="/assets/images/danish-pastry-892909_1280.jpg" alt="Danish Pastry" />
+						<img class="img-fluid" src="assets/images/danish-pastry-892909_1280.jpg" alt="Danish Pastry" />
                     </div>
 					<h4 class="item-title heading uppercase">Danish Pastry</h4>
 					<div class="item-content">
@@ -311,14 +315,14 @@
 					</div>
                     <div class="spacer-menu"></div>
 					<div class="allergen-item">
-						<img src="/assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="/assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
+						<img src="assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
                     </div>
 				</div>
             </div>
 			<div class="col-12 col-md-4 meal-container bg-darkbrown pastry-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-						<img class="img-fluid" src="/assets/images/eclair-489727_1280.jpg" alt="Eclair" />
+						<img class="img-fluid" src="assets/images/eclair-489727_1280.jpg" alt="Eclair" />
                     </div>
 					<h4 class="item-title heading uppercase">Eclair</h4>
 					<div class="item-content">
@@ -326,14 +330,14 @@
 					</div>
                     <div class="spacer-menu"></div>
 					<div class="allergen-item">
-						<img src="/assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="/assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
+						<img src="assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
                     </div>
 				</div>
             </div>
             <div class="col-12 col-md-4 meal-container bg-darkbrown pastry-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-						<img class="img-fluid" src="/assets/images/pie-1253619_1280.jpg" alt="Apple Tart" />
+						<img class="img-fluid" src="assets/images/pie-1253619_1280.jpg" alt="Apple Tart" />
                     </div>
 					<h4 class="item-title heading uppercase">Apple Tart</h4>
 					<div class="item-content">
@@ -341,7 +345,7 @@
 					</div>
                     <div class="spacer-menu"></div>
 					<div class="allergen-item">
-						<img src="/assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="/assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
+						<img src="assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
                     </div>
 				</div>
             </div>
@@ -354,7 +358,7 @@
 			<div class="col-12 col-md-4 meal-container bg-darkbrown cake-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-						<img class="img-fluid" src="/assets/images/blur-1869227_1280.jpg" alt="Cheesecake" />
+						<img class="img-fluid" src="assets/images/blur-1869227_1280.jpg" alt="Cheesecake" />
                     </div>
 					<h4 class="item-title heading uppercase">Cheesecake</h4>
 					<div class="item-content">
@@ -362,14 +366,14 @@
 					</div>
                     <div class="spacer-menu"></div>
 					<div class="allergen-item">
-						<img src="/assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
+						<img src="assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
                     </div>
 				</div>
             </div>
 			<div class="col-12 col-md-4 meal-container bg-darkbrown cake-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-						<img class="img-fluid" src="/assets/images/cupcakes-690040_1280.jpg" alt="Cupcakes" />
+						<img class="img-fluid" src="assets/images/cupcakes-690040_1280.jpg" alt="Cupcakes" />
                     </div>
 					<h4 class="item-title heading uppercase">Cupcakes</h4>
 					<div class="item-content">
@@ -377,14 +381,14 @@
 					</div>
                     <div class="spacer-menu"></div>
 					<div class="allergen-item">
-						<img src="/assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="/assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
+						<img src="assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
                     </div>
 				</div>
             </div>
             <div class="col-12 col-md-4 meal-container bg-darkbrown cake-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-						<img class="img-fluid" src="/assets/images/cake-1850011_1280.jpg" alt="Fudge Cake" />
+						<img class="img-fluid" src="assets/images/cake-1850011_1280.jpg" alt="Fudge Cake" />
                     </div>
 					<h4 class="item-title heading uppercase">Fudge Cake</h4>
 					<div class="item-content">
@@ -392,7 +396,7 @@
 					</div>
                     <div class="spacer-menu"></div>
 					<div class="allergen-item">
-						<img src="/assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="/assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
+						<img src="assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
                     </div>
 				</div>
             </div>
@@ -401,7 +405,7 @@
 			<div class="col-12 col-md-4 meal-container bg-darkbrown cake-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-						<img class="img-fluid" src="/assets/images/cake-3128860_1280.jpg" alt="Carrot Cake" />
+						<img class="img-fluid" src="assets/images/cake-3128860_1280.jpg" alt="Carrot Cake" />
                     </div>
 					<h4 class="item-title heading uppercase">Carrot Cake</h4>
 					<div class="item-content">
@@ -412,7 +416,7 @@
 			<div class="col-12 col-md-4 meal-container bg-darkbrown cake-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-						<img class="img-fluid" src="/assets/images/cake-2680410_1280.jpg" alt="Mini Victoria Sponge" />
+						<img class="img-fluid" src="assets/images/cake-2680410_1280.jpg" alt="Mini Victoria Sponge" />
                     </div>
 					<h4 class="item-title heading uppercase">Mini Victoria Sponge</h4>
 					<div class="item-content">
@@ -420,14 +424,14 @@
 					</div>
                     <div class="spacer-menu"></div>
 					<div class="allergen-item">
-						<img src="/assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="/assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
+						<img src="assets/images/eggs-amber_109464.png" class="img-fluid" alt="Eggs" /> <img src="assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
                     </div>
 				</div>
             </div>
             <div class="col-12 col-md-4 meal-container bg-darkbrown cake-menu d-flex align-items-stretch">
 				<div class="item-wrapper">
 					<div class="item-image">
-						<img class="img-fluid" src="/assets/images/strawberries-3285333_1280.jpg" alt="Strawberry Shortcake" />
+						<img class="img-fluid" src="assets/images/strawberries-3285333_1280.jpg" alt="Strawberry Shortcake" />
                     </div>
 					<h4 class="item-title heading uppercase">Strawberry Shortcake</h4>
 					<div class="item-content">
@@ -435,7 +439,7 @@
 					</div>
                     <div class="spacer-menu"></div>
 					<div class="allergen-item">
-						<img src="/assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
+						<img src="assets/images/milk-amber_109466.png" class="img-fluid" alt="Milk" />
                     </div>
 				</div>
             </div>
