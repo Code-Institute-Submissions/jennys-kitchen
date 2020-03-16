@@ -1,7 +1,8 @@
-# Jenny’s Kitchen - A 100% gluten-free artisan bakery
+# [Jenny’s Kitchen - A 100% gluten-free artisan bakery](https://mark-obeirne.github.io/jennys-kitchen/)
 
 Code Institute - Milestone Project 1
 Deadline: 01/04/20
+Live GitHub Pages Link: https://mark-obeirne.github.io/jennys-kitchen/
 
 ## Summary
 Jenny’s Kitchen is a 100% gluten-free artisan bakery, located in Nenagh, Co. Tipperary, Ireland. The purpose of this website is to showcase the bakery’s range of goods, appealing to coeliacs and non-coeliacs alike; present potential customers with information about the bakery; and enable customers to place orders in advance to not only avoid disappointment, but to enquire about allergen-friendly options. 
