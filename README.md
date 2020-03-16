@@ -61,16 +61,16 @@ There are two different customer groups being targeted with this website, althou
 Wireframes that guided the design of this website can be found here:
 
 ### Mobile Wireframes
-* [Index](assets/wireframes/Index_Mobile.png)
-* [Menu](assets/wireframes/Menu_Mobile%20%28Alternate%29.png)
-* [About](assets/wireframes/About_Mobile.png)
-* [Order](assets/wireframes/Order_Mobile.png)
+* [Index](https://raw.githubusercontent.com/mark-obeirne/jennys-kitchen/master/assets/wireframes/Index_Mobile.png)
+* [Menu](https://raw.githubusercontent.com/mark-obeirne/jennys-kitchen/master/assets/wireframes/Menu_Mobile%20(Alternate).png)
+* [About](https://raw.githubusercontent.com/mark-obeirne/jennys-kitchen/master/assets/wireframes/About_Mobile.png)
+* [Order](https://raw.githubusercontent.com/mark-obeirne/jennys-kitchen/master/assets/wireframes/Order_Mobile.png)
 
 ### Desktop wireframes
-* [Index](assets/wireframes/Index_Desktop.png)
-* [Menu](assets/wireframes/Menu_Desktop.png)
-* [About](assets/wireframes/About_Desktop.png)
-* [Order](assets/wireframes/Order_Desktop.png)
+* [Index](https://raw.githubusercontent.com/mark-obeirne/jennys-kitchen/master/assets/wireframes/Index_Desktop.png)
+* [Menu](https://raw.githubusercontent.com/mark-obeirne/jennys-kitchen/master/assets/wireframes/Menu_Desktop.png)
+* [About](https://raw.githubusercontent.com/mark-obeirne/jennys-kitchen/master/assets/wireframes/About_Desktop.png)
+* [Order](https://raw.githubusercontent.com/mark-obeirne/jennys-kitchen/master/assets/wireframes/Order_Desktop.png)
 
 ## Features
 TBA
