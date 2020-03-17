@@ -147,6 +147,12 @@ Over the course of this project, some issues were encountered, which I will deta
 ### Carousel Whitespace
 When I initially setup the carousel with my images and tested it in action, a white background appeared to the sides when the image cycled to the next. This was rectified using advice found in the comments on a GitHub issue. [Anantajitjg outlined](https://github.com/twbs/bootstrap/issues/24657#issuecomment-360552841) that adding a visible backface-visibility and a ease transition solved this issue.
 
+### Index.html Columns Differing In Height
+The three columns on index.html - Allergens, About, and Order Online - did not line up in height initially with just a header, the image, the text content, and a button to bring the user to the relevant page. While I could have used a Bootstrap card element for the content box itself, this also left me with mismatching heights unless the content was of similar length. This would not be practical in a live environment, particularly if changes are required later. 
+
+
+The align-items-stretch class ensured that the columns matched the height of the tallest column. It was then necessary to absolute position the buttons of these columns to ensure that they lined up correctly. This required the additional use of a spacer div, as [suggested by Maarti on StackOverflow](https://stackoverflow.com/a/12408519), which ensured that the buttons did not overlap the text, particularly on mobile devices.
+
 
 ### Any known issues?
 
