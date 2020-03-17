@@ -97,7 +97,7 @@ text-decoration: none;
 
 .navbar-light .navbar-nav .active>.nav-link span {
     text-decoration: underline;
-    color: rgb(61, 34, 6, .9);
+    color: rgb(61, 34, 6, .8);
 }
 
 .nav-link span {
@@ -615,7 +615,7 @@ h1,h2,h3,h4 {
 }
 
 footer:focus, footer:hover {
-    color: rgb(61, 34, 6, .7);
+    color: rgb(61, 34, 6, .9);
 } 
 
 /* ---Footer--- */
@@ -631,7 +631,7 @@ footer {
 }
 
 footer a:focus, footer a:hover {
-    color: rgb(61, 34, 6, .7);
+    color: rgb(61, 34, 6, .9);
     text-decoration: none;
 }
 
