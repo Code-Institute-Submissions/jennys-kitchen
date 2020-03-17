@@ -96,7 +96,8 @@ To improve upon the existing static image that links to the Google Maps pin for 
 ### Collection Calendar
 To build upon the form that asks for a collection date, we would like to implement a more fully fledged datepicker. We have found a [bootstrap datepicker](https://uxsolutions.github.io/bootstrap-datepicker/?markup=input&format=&weekStart=&startDate=&endDate=&startView=0&minViewMode=0&maxViewMode=4&todayBtn=false&clearBtn=false&language=en&orientation=auto&multidate=&multidateSeparator=&keyboardNavigation=on&forceParse=on#sandbox) in alpha that we may explore further.
 
-
+### Tooltips
+There is scope to add tooltips to accompany the images of allergens on menu items, which would clarify what the symbols represent when someone hovers over the icons.
 
 ## Technology Used
 [HTML](https://en.wikipedia.org/wiki/HTML) & [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) programming languages - For the basic site structure and design elements
