@@ -250,3 +250,4 @@ The majority of images were downloaded from [Pixabay](https://pixabay.com/) or [
 
 
 ## Disclaimer
+This project is for educational purposes only.
