@@ -97,6 +97,7 @@ text-decoration: none;
 
 .navbar-light .navbar-nav .active>.nav-link span {
     text-decoration: underline;
+    color: rgb(61, 34, 6, .9);
 }
 
 .nav-link span {
