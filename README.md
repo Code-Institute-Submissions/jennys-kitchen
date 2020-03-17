@@ -55,6 +55,14 @@ There are two different customer groups being targeted with this website, althou
 
 
 ### Design Choices
+#### Colors
+The basic color scheme of yellow, brown, and a darker brown was chosen because it feels warm and inviting, provided a good platform for the visual elements of the website to stand out, and provided a good contrast for legibility and accessibility. These colors are frequently found in baking too as the crusty brown exterior of a loaf of bread gives way to an offwhite or yellow-tinged interior.
+
+#### Fonts
+Three fonts appear on the website: Pinyon Script, Open Sans, and Oswald.
+
+
+Pinyon Script is used for the brand name as it looks quite refined, yet also feels friendly. However, it was not practical to use at smaller font sizes as it didn’t feel right, which is why Open Sans was used for page headings. Open Sans is not only legible, but also exhibits a friendly appearance by design. Oswald compliments this font nicely and was determined to be a great choice for use in lengthier paragraphs and writeups.
 
 
 ## Wireframe Mockups
@@ -89,10 +97,11 @@ To build upon the form that asks for a collection date, we would like to impleme
 
 
 ## Technology Used
-HTML & CSS programming languages - For the basic site structure and design elements
+[HTML](https://en.wikipedia.org/wiki/HTML) & [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) programming languages - For the basic site structure and design elements
 
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript) - A small amount of JavaScript was utilised to provide a smooth scroll on the menu page
 
-[Bootstrap 4]() - To adopt a mobile first design and to ensure responsive behaviour across a variety of screen sizes
+[Bootstrap 4](https://getbootstrap.com/) - To adopt a mobile first design and to ensure responsive behaviour across a variety of screen sizes
 
 
 [Balsamiq](https://balsamiq.com/wireframes/desktop/#) - To create the wireframes to build the design around
@@ -101,19 +110,19 @@ HTML & CSS programming languages - For the basic site structure and design eleme
 [Coolors](https://coolors.co/) - To determine a suitable color palette and find colors that worked well together
 
 
-[Google Fonts]() - 
+[Google Fonts](https://fonts.google.com/) - To find the appropriate typefaces for a website of this type
 
 
-[Font Awesome]() - 
+[Font Awesome](https://fontawesome.com/) - To find icons that would suit this website that would also add more meaning to the navigation menu and footer columns
 
 
-[Git]() - 
+[Git](https://git-scm.com/) - To track changes in code during development
 
 
-[GitHub]() - 
+[GitHub](https://github.com/) - To host the project’s repository and to host the live website via GitHub Pages
 
 
-[Gimp 2]() - For image manipulation and to create the brand’s logo
+[Gimp 2](https://www.gimp.org/) - For image manipulation and to create the brand’s logo
 
 
 [Favicon Converter](https://favicon.io/favicon-converter/) - To create the favicon based on the brand logo
@@ -143,6 +152,28 @@ When I initially setup the carousel with my images and tested it in action, a wh
 
 
 ## Deployment
+### GitHub Pages
+To deploy this website on GitHub Pages, I followed the following steps:
+1 Navigate to the [project’s repository](https://github.com/mark-obeirne/jennys-kitchen)
+2 Navigate to the [settings page](https://github.com/mark-obeirne/jennys-kitchen/settings)
+3 Scroll down to the section titled GitHub Pages
+4 As my repository was private while I was working on it, I had to choose to make it public
+5 Select Master Branch from the Source dropdown
+6 The GitHub Pages section changed to inform me that my site was ready to be published at https://mark-obeirne.github.io/jennys-kitchen/index.html
+
+### Local Deployment
+To clone this project and to deploy it locally, follow these steps:
+1 Navigate to the [project’s repository](https://github.com/mark-obeirne/jennys-kitchen)
+2 Click the green button marked “Clone or download”
+3 Highlight the provided URL and copy it or click the copy button to the right. Alternatively, you can download a .zip file of the repository to run the website locally
+4 Open your terminal
+5 Navigate to the working directory where you would like to place the cloned repository
+6 In the command line, type “git clone” followed by the URL copied previously
+
+For more information or guidance, please see [GitHub’s Help Section](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
+
+
 
 
 
