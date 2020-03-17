@@ -184,7 +184,62 @@ For more information or guidance, please see [GitHub’s Help Section](https://h
 
 
 ## Credits 
+### Content
+[Smooth Scroll](https://github.com/cferdinandi/smooth-scroll) - To ensure that links clicked on the menu page (bookmarks to Breakfast, Bread, Pastry, or Cakes sections) scroll smoothly
 
+
+[Change image on hover](https://www.tutorialrepublic.com/faq/how-to-change-image-on-hover-with-css.php) - Using the Tutorial Republic guide, I was able to correctly position and enable a change of image when a user hovered over the brand’s logo. A logo with inverted colors was used, which stands out against the yellow background, while a drop shadow is also applied on hover. This signified that the logo is a link that can be clicked on, behaviour that is mirrored elsewhere on the site
+
+
+[Hover.css](https://github.com/IanLunn/Hover) - In order to highlight links that could be interacted with, the Hover.css library of effects was used. The grow effect is applied to menu items and buttons, while grow rotate is applied to social media links as they are smaller and the additional rotate makes their interactivity more noticable. 
+
+
+### Media
+The majority of images were downloaded from [Pixabay](https://pixabay.com/) or [Unsplash](https://unsplash.com/), while some icons were sourced on [Icon-icons](https://icon-icons.com):
+
+#### Logo:
+* [Chef hat logo, tweaked for the brand’s logo](https://pixabay.com/vectors/chef-hat-toque-cook-isolated-309146/?fbclid=IwAR2AE-fkGKGOL2WaCuJ-9ElbYYhtHqydc0VJrc7Y8ExpsCkrPkL8NxCpVBI)
+
+#### Carousel Images:
+* [Baker patting baked bread](https://pixabay.com/photos/bio-baker-bread-bake-nutrition-4840960/)
+* [Croissants](https://pixabay.com/photos/bread-croissants-food-bakery-roast-4077812/)
+* [Baker holding baked bread in towel](https://pixabay.com/photos/bread-baking-fresh-home-made-food-821503/)
+
+#### Index Page:
+* [Allergens - dough and rolling pin](https://pixabay.com/photos/dough-cook-recipe-italian-flour-943245/)
+* [About us - baker with dough](https://pixabay.com/photos/baker-baking-bread-cook-food-858401/)
+* [Order online - stacked macarons](https://pixabay.com/photos/cookies-macarons-sweetness-dessert-4053771/)
+
+#### Menu Page:
+* [Allergen icons](https://icon-icons.com/pack/Food-Alergy-Amber/1636)
+* [Croissant](https://pixabay.com/photos/croissant-puff-paste-flaky-pastry-410322/)
+* [Scone](https://unsplash.com/photos/K527mBnqBM0)
+* [Pancakes](https://unsplash.com/photos/qp7WA8AV2x0)
+* [Cinnamon roll](https://pixabay.com/photos/cinnamon-rolls-bake-bread-food-4004514/)
+* [Savory muffins](https://pixabay.com/photos/muffins-blueberries-dessert-4002553/)
+* [Banana bread](https://pixabay.com/photos/bread-banana-food-healthy-homemade-2459926/)
+* [White rice loaf](https://unsplash.com/photos/PvAl4A6hHh8)
+* [Brown rice loaf](https://unsplash.com/photos/LJ6cwT1_UVA)
+* [Bagels](https://pixabay.com/photos/bagels-food-breakfast-sesame-snack-3777460/)
+* [Herbed foccacia bread](https://pixabay.com/photos/focaccia-food-italian-pizza-3771454/)
+* [Baguettes](https://pixabay.com/photos/bread-bakery-preparation-2436370/)
+* [Olive stuffed foccacia](https://pixabay.com/photos/focaccia-olives-bread-artisan-bread-2241106)
+* [Danish pastry](https://pixabay.com/photos/danish-pastry-cream-cheese-jam-892909/)
+* [Eclair](https://pixabay.com/photos/%C3%A9clair-dessert-sweet-french-489727/)
+* [Apple tart](https://pixabay.com/photos/pie-dessert-fruit-tart-apple-pie-1253619/)
+* [Cheesecake](https://pixabay.com/photos/blur-cake-cheesecake-cinnamon-1869227/)
+* [Cupcakes](https://pixabay.com/photos/cupcakes-dessert-frosting-food-690040/)
+* [Fudge cake](https://pixabay.com/photos/cake-chocolate-chocolate-cake-1850011/)
+* [Carrot cake](https://pixabay.com/photos/cake-carrot-cake-delicious-eat-3128860/)
+* [Mini Victoria sponge](https://pixabay.com/photos/cake-cooking-food-treat-bake-2680410/)
+* [Strawberry shortcake](https://pixabay.com/photos/strawberries-strawberry-shortcake-3285333/)
+
+### About Us Page:
+* [Hero image](https://pixabay.com/photos/bakery-bread-artisan-567378/)
+* [Jenny’s picture](https://www.facebook.com/385837298206156/photos/a.409044609218758/633781693411714/?type=3&theater)
+
+### Order Page:
+* [Background image](https://pixabay.com/photos/cooking-baking-sweets-woman-girl-1940689/)
 
 
 ## Acknowledgements
