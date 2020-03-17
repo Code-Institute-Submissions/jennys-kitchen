@@ -99,6 +99,7 @@ To build upon the form that asks for a collection date, we would like to impleme
 ### Tooltips
 There is scope to add tooltips to accompany the images of allergens on menu items, which would clarify what the symbols represent when someone hovers over the icons.
 
+
 ## Technology Used
 [HTML](https://en.wikipedia.org/wiki/HTML) & [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) programming languages - For the basic site structure and design elements
 
@@ -132,10 +133,29 @@ There is scope to add tooltips to accompany the images of allergens on menu item
 
 
 ## Testing
-Frequent testing was carried out using Chrome’s developer tools to ensure that the content of the site looked good and behaved properly across a range of screen sizes.
 
+* Chrome Developer Tools - Frequent testing was carried out using Chrome’s developer tools to ensure that the content of the site behaved properly and looked good across a range of screen sizes. This was also utilised to ensure that there was sufficient contrast between text and the background color.
 
-This website was also tested on a range of devices and internet browsers:
+* [HTML Validator](https://validator.w3.org/nu/) - The project was checked throughout development using the HTML Validator and issues were corrected along the way. 
+
+* [CSS Validator](https://jigsaw.w3.org/css-validator/validator) - Before finalising the project, the CSS file was run through a CSS Validator to ensure that no errors occurred. 
+
+* [Responsinator](https://www.responsinator.com/) - This tool was used to check the responsiveness of the website as it is much faster to analyse different screen sizes than the Chrome Developer Tools. This showcases how the website looks across a number of devices and orientations including ______________
+
+* [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln) - This Chrome Extension, from a Code Institute alumni, showcases borders and overflows, making it easier to debug. This extension was utilised from time to time, particularly when elements weren’t lining up correctly, which did occur on the Menu page when the Google Maps image was added initially.
+
+* [Contrast Ratio](http://contrast-ratio.com/) - Like Chrome’s developer tools, this website allowed me to check colors of text and backgrounds to ensure that they would be readable. It provides a precise contrast and ensures that the color combination used will pass AAA level for any size text. The inverse of the below combinations produces the same result.
+
+### Results:
+
+| Background | Text Color | Result | Example of Use | Additional Comments |
+| --- | --- | --- | --- | --- |
+| rgb(255, 255, 231) |  rgb(61, 34, 6) | 14.48 |  | Passes AAA level for any size text
+| rgb(111, 78, 51) |  rgb(255, 255, 231) | 7.36 | | Passes AAA level for any size text
+| rgb(255, 255, 231) | rgb(61, 34, 6, .8) | 7.71 | Other nav menu options that are not the active page | Passes AAA level for any size text
+| rgb(255, 255, 231) | rgb(61, 34, 6, .8) | 7.71 | Non-active nav menu options | Passes AAA level for any size text
+| rgb(255, 255, 231) | rgb(61, 34, 6, .9) | 10.73 | Non-active nav menu options on hover | Passes AAA level for any size text
+
 
 
 
