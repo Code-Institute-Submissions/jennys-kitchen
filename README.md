@@ -83,8 +83,14 @@ Wireframes that guided the design of this website can be found here:
 * [Order](https://raw.githubusercontent.com/mark-obeirne/jennys-kitchen/master/assets/wireframes/Order_Desktop.png)
 
 ## Features
-TBA
-
+### Image Carousel 
+One of the first elements that greets users to the website is an image carousel, which presents a visual preview of the care and craft of our staff as well as an indication of the type of item that one would be able to order.
+### Visual Menu 
+It was important to the business owner to be able to present information visually. This acts as a treat for the eyes and hopefully gets coeliacs and non-coeliacs excited about coming in.
+### Downloadable Allergens Menu 
+While gluten is one allergen that is catered for extensively, it can be difficult for people with other allergies to find suitable options. This downloadable menu enables customers to browse in advance, rather than potentially feeling under pressure at the counter, and find suitable options. It also informs them of options that could be made to order.
+### Order Form 
+Whether it’s just a case of a customer wanting something in particular when they visit, they wish to order something for a special occasion, or a customer wishes to have a treat made up to cater for their allergies, we offer an order form to ensure that we can cater for customers and their needs. 
 
 ## Features Left to Implement
 ### Credit Card Payment
