@@ -162,10 +162,37 @@ There is scope to add tooltips to accompany the images of allergens on menu item
 | rgb(255, 255, 231) | rgb(61, 34, 6, .8) | 7.71 | Non-active nav menu options | Passes AAA level for any size text
 | rgb(255, 255, 231) | rgb(61, 34, 6, .9) | 10.73 | Non-active nav menu options on hover | Passes AAA level for any size text
 
+* [WAVE](https://wave.webaim.org/) - This website was utilised to access the accessibility of this website. Each page of the website was input separately into the WAVE website. This produces a list of Errors, Contrast Errors, Alerts, Features, Structural Elements, and ARIA. The results of this tool can be read below.
+
+### Index.html
+Two contrast errors were highlighted in relation to the carousel and overlay text. The tool detected a very low contrast between the text and the background colour as the body of the page is the same colour as the font. The tool ignores the presence of the background image contained in the carousel as it states that adequate contrast must be provided when images are disabled or unavailable. In this instance, it also ignores the presence of the semi-transparent div element as it states, “Contrast is not tested when background gradients, transparency, etc. are present.” As a result, we feel that the page is suitable as is.
+
+
+Alerts were produced by the practice of skipping heading levels, as the section headings (h4) and proceeded by the footer headings (h6). This was done to utilise heading sizes that seemed most fitting for these sections and did not appear to have a negative effect on the website or user experience. These alerts are replicated on the proceeding pages too.
+
+
+In order to highlight the current page that the user is on, we have underlined the current page’s title in the navigation menu. We have combined this with an increased size and slightly different colour to indicate using more than just colour (as recommended in [Google’s Accessible Styles guide](https://developers.google.com/web/fundamentals/accessibility/accessible-styles#color_and_contrast). However, the underlined text is highlighted by the WAVE tool as an alert, but in this case it is both linked text and presents information in a clearer manner to the end user. This alert is replicated on each proceeding page. 
+
+### Menu.html
+One error was highlighted pointing to an empty link, i.e. a link that contains no text. This was in relation to the navigation arrow fixed to the right hand side of the page. It was highlighted that the lack of text could introduce confusion for keyboard and screen reader users. As a result, I added a span with the class of sr-only to explain that the link would bring the user back to the top of the page.
+
+
+This report also highlighted that the alt descriptions of the allergen images were the same as the text beside them. This can cause issues for screen readers, as it essentially results in doubling up of the term being read. WHAT TO DO?
+
+
+### About.html
+One contrast error was produced by the inclusion of a header on an overlay of an image. As with the index page, we are happy that the page performs as best it can.
+
+
+A redundant link was highlighted by the presence of the map images that point to the same link. However, these images are not displayed at the same time regardless of whether or not the user is using a screen reader, so it has no bearing on the user experience. 
+
+
+### Order.html
+As the text sits atop an overlay with a background image displayed underneath, there are a number of contrast errors highlighted. As with previous pages, these tests do not account for the semi-transparent div element that provides some additional contrast. 
 
 
 
-### Testing Process
+## Testing Process
 
 
 
