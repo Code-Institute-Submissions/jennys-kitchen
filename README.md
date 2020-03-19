@@ -272,6 +272,13 @@ The majority of images were downloaded from [Pixabay](https://pixabay.com/) or [
 
 
 ## Acknowledgements
+I would like to thank my mentor, [Antonio Rodriguez](https://github.com/AkaAnto) for their support, insights, advice, and encouragement.
+
+
+I would also like to thank the Slack community for their advice and willingness to answer questions, no matter how ridiculous. A special mention should be made of Richard Wells, who hosted a call to provide some tips and guidance on completing the Milestone 1 project, and Simon Dehlin, an alumni who created the Unicorn Revealer tool used as part of my testing.
+
+
+Finally, I would like to thank all those who took the time to test this website and provide feedback and suggestions. 
 
 
 
