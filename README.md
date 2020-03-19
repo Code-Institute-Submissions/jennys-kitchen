@@ -174,7 +174,7 @@ There is scope to add tooltips to accompany the images of allergens on menu item
 Over the course of this project, some issues were encountered, which I will detail here. Any outstanding issues are outlined in the “Any Known Issues?” section located below. 
 
 ### Carousel Whitespace
-When I initially setup the carousel with my images and tested it in action, a white background appeared to the sides when the image cycled to the next. This was rectified using advice found in the comments on a GitHub issue. [Anantajitjg outlined](https://github.com/twbs/bootstrap/issues/24657#issuecomment-360552841) that adding a visible backface-visibility and a ease transition solved this issue.
+When I initially setup the carousel with my images and tested it in action, a white background appeared to the sides when the image cycled to the next. This was rectified using advice found in the comments on a GitHub issue. [Anantajitjg outlined](https://github.com/twbs/bootstrap/issues/24657#issuecomment-360552841) that adding a visible backface-visibility and an ease transition solved this issue.
 
 ### Index.html Columns Differing In Height
 The three columns on index.html - Allergens, About, and Order Online - did not line up in height initially with just a header, the image, the text content, and a button to bring the user to the relevant page. While I could have used a Bootstrap card element for the content box itself, this also left me with mismatching heights unless the content was of similar length. This would not be practical in a live environment, particularly if changes are required later. 
