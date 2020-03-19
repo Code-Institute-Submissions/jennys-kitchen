@@ -257,6 +257,11 @@ The align-items-stretch class ensured that the columns matched the height of the
 
 
 ### Any known issues?
+#### Order Form - Invalid Collection Date
+It is possible to submit the form with a date selected that has already passed
+
+#### Order Form - Submission of Order Form
+On successful submission of the order form, a message appears to thank a user for their order, and the page refreshes when this dialog box is accepted. If a user places a second order on this page, the dialog box appears as it should, but when accepted the page does not refresh and the order form still has the fields filled.
 
 
 ## Deployment
