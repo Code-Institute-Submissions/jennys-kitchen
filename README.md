@@ -193,8 +193,54 @@ As the text sits atop an overlay with a background image displayed underneath, t
 
 
 ## Testing Process
+### Navigation Menu:
+
+1. From the index page, visit the menu page (all subsections), about page, and order page from the navigation menu
+
+2. From the menu page, visit the index page, the about page, and order page from the navigation menu
+
+3. From the about page, visit the index page, the menu page (all subsections), and order page from the navigation menu
+
+4. From the menu page, visit the index page, the menu page (all subsections), and the about page from the navigation menu
+
+5. Click on the Jenny’s Kitchen brand name on each page of the website to ensure it brings the user back to the index page
 
 
+### Footer Links:
+
+1. Scroll down to the footer from any page
+
+1. Ensure that the Address heading in the footer brings the user to a Google Maps pin for the bakery in a new window
+
+2. Check the social media icons in the footer to ensure that they bring the user to the homepage of the social media site or the relevant account for the business where possible, opening the link in a new window
+
+
+### Menu Page:
+
+1. Visit the menu page
+
+1. Use the bookmark to visit each of the subsections of the page
+
+2. Use the “back to top” button fixed to the right hand side of the page to scroll smoothly back to the top of the page
+
+3. Click on the “Download Allergens Menu” to ensure that it opens in a new window and allows the user to download a PDF of the menu
+
+
+### Order Form
+
+1. Navigate to the Place Order page using the navigation bar
+
+2. Attempt to submit the form without any details filled in
+
+3. Attempt to submit the form with an invalid email address entered
+
+4. Attempt to submit the form without entering anything in the box marked, “What would you like to order?” 
+
+5. Attempt to submit the form without a collection date specified
+
+6. Attempt to submit the form with an invalid date specified
+
+7. Complete the form in full and click Submit Order. Ensure that the “Thank you for your order” message appears
 
 
 ## Issues and Resolutions
