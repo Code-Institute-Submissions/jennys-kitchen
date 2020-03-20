@@ -146,7 +146,7 @@ There is scope to add tooltips to accompany the images of allergens on menu item
 
 * [CSS Validator](https://jigsaw.w3.org/css-validator/validator) - Before finalising the project, the CSS file was run through a CSS Validator to ensure that no errors occurred. 
 
-* [Responsinator](https://www.responsinator.com/) - This tool was used to check the responsiveness of the website as it is much faster to analyse different screen sizes than the Chrome Developer Tools. This showcases how the website looks across a number of devices and orientations including ______________
+* [Responsinator](https://www.responsinator.com/) - This tool was used to check the responsiveness of the website as it is much faster to analyse different screen sizes than the Chrome Developer Tools. This showcases how the website looks across a number of devices and orientations including iPhone "eXpensive", Android (Pixel 2), iPhone 6-8, iPhone 6-8 Plump, and iPad.  
 
 * [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln) - This Chrome Extension, from a Code Institute alumni, showcases borders and overflows, making it easier to debug. This extension was utilised from time to time, particularly when elements weren’t lining up correctly, which did occur on the Menu page when the Google Maps image was added initially.
 
