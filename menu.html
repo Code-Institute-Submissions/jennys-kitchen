@@ -19,7 +19,7 @@
 
 <body>
 <!--Navbar-->
-	<nav class="navbar navbar-expand-md navbar-light">
+	<nav class="navbar navbar-expand-md navbar-light" id="menu-top">
 		<a class="navbar-brand" href="index.html"><img src="assets/images/jennys-kitchen_logo_white.png" class="img-fluid logo" alt="Jenny's Kitchen logo" />
 			<!--Img-top appears on hover as position changes from absolute to inline . Credit: Tutorial Republic, https://www.tutorialrepublic.com/faq/how-to-change-image-on-hover-with-css.php-->
             <img src="assets/images/jennys-kitchen_logo_brown.png" class="img-fluid img-top logo" alt="Jenny's Kitchen logo" />
@@ -44,6 +44,7 @@
 						<span>Menu</span> <span class="sr-only">(current)</span>
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="menu.html#allergens">Allergens</a>
 						<a class="dropdown-item" href="menu.html#breakfast">Breakfast</a>
 						<a class="dropdown-item" href="menu.html#bread">Bread</a>
 						<a class="dropdown-item" href="menu.html#pastry">Pastry</a>
@@ -66,11 +67,11 @@
 		</div>
 	</nav>
     <!--Navigation arrow, fixed to right hand side of screen, to bring user back to top of page. Data-scroll class makes this smooth-->
-    <a data-scroll href="#menu-top"><div class="top-button"><span class="sr-only">Back to top of page</span><i class="fas fa-angle-double-up"></i></div></a>
+    <a href="#menu-top"><div class="top-button"><span class="sr-only">Back to top of page</span><i class="fas fa-angle-double-up"></i></div></a>
 	<!--Menu header and bookmarks-->
     <section>
         <div class="bg-darkbrown">
-            <h1 class="heading uppercase offwhite" id="menu-top">Menu</h1>
+            <h1 class="heading uppercase offwhite">Menu</h1>
         </div>
 	    <div class="container-fluid bg-darkbrown">
 		    <div class="row">
@@ -78,17 +79,16 @@
 				    <div class="bookmarks">
 					    <ul class="bookmarks-list">
 						    <li class="bookmarks-item">
-							    <!--Data-scroll class ensures a smooth scroll to bookmarks-->
-                                <a class="bookmarks-link hvr-grow offwhite" data-scroll href="#breakfast">Breakfast</a>
+                                <a class="bookmarks-link hvr-grow offwhite" href="#breakfast">Breakfast</a>
 						    </li>
 						    <li class="bookmarks-item">
-							    <a class="bookmarks-link hvr-grow offwhite" data-scroll href="#bread">Bread</a>
+							    <a class="bookmarks-link hvr-grow offwhite" href="#bread">Bread</a>
 						    </li>
 						    <li class="bookmarks-item">
-							    <a class="bookmarks-link hvr-grow offwhite" data-scroll href="#pastry">Pastry</a>
+							    <a class="bookmarks-link hvr-grow offwhite" href="#pastry">Pastry</a>
 						    </li>
 						    <li class="bookmarks-item">
-							    <a class="bookmarks-link hvr-grow offwhite" data-scroll href="#cake">Cake</a>
+							    <a class="bookmarks-link hvr-grow offwhite" href="#cake">Cake</a>
 						    </li>
 					    </ul>
 				    </div>
@@ -100,7 +100,7 @@
 	<section class="container-fluid">
 		<div class="row allergen-box">
 			<div class="col-12 allergen-key">
-				<h6 class="uppercase">Allergens</h6>
+				<h6 class="uppercase" id="#allergens">Allergens</h6>
 				<div class="allergens">
 					<!--<span class="allergen-item"><img src="assets/images/gluten-amber_109461.png" class="img-fluid" alt="Cereals containing gluten" />
 					<p class="allergen-info">Cereals Containing Gluten</p></span>-->
