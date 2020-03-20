@@ -57,8 +57,8 @@ There are two different customer groups being targeted with this website, althou
 
 
 ### Design Choices
-#### Colors
-The basic color scheme of yellow, brown, and a darker brown was chosen because it feels warm and inviting, provided a good platform for the visual elements of the website to stand out, and provided a good contrast for legibility and accessibility. These colors are frequently found in baking too as the crusty brown exterior of a loaf of bread gives way to an offwhite or yellow-tinged interior.
+#### Colours
+The basic colour scheme of yellow, brown, and a darker brown was chosen because it feels warm and inviting, provided a good platform for the visual elements of the website to stand out, and provided a good contrast for legibility and accessibility. These colours are frequently found in baking too as the crusty brown exterior of a loaf of bread gives way to an offwhite or yellow-tinged interior.
 
 #### Fonts
 Three fonts appear on the website: Pinyon Script, Open Sans, and Oswald.
@@ -117,7 +117,7 @@ There is scope to add tooltips to accompany the images of allergens on menu item
 [Balsamiq](https://balsamiq.com/wireframes/desktop/#) - To create the wireframes to build the design around.
 
 
-[Coolors](https://coolors.co/) - To determine a suitable color palette and find colors that worked well together.
+[Coolors](https://coolors.co/) - To determine a suitable colour palette and find colours that worked well together.
 
 
 [Google Fonts](https://fonts.google.com/) - To find the appropriate typefaces for a website of this type.
@@ -140,7 +140,7 @@ There is scope to add tooltips to accompany the images of allergens on menu item
 
 ## Testing
 
-* Chrome Developer Tools - Frequent testing was carried out using Chrome’s developer tools to ensure that the content of the site behaved properly and looked good across a range of screen sizes. This was also utilised to ensure that there was sufficient contrast between text and the background color.
+* Chrome Developer Tools - Frequent testing was carried out using Chrome’s developer tools to ensure that the content of the site behaved properly and looked good across a range of screen sizes. This was also utilised to ensure that there was sufficient contrast between text and the background colour.
 
 * [HTML Validator](https://validator.w3.org/nu/) - The project was checked throughout development using the HTML Validator and issues were corrected along the way. 
 
@@ -150,11 +150,11 @@ There is scope to add tooltips to accompany the images of allergens on menu item
 
 * [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln) - This Chrome Extension, from a Code Institute alumni, showcases borders and overflows, making it easier to debug. This extension was utilised from time to time, particularly when elements weren’t lining up correctly, which did occur on the Menu page when the Google Maps image was added initially.
 
-* [Contrast Ratio](http://contrast-ratio.com/) - Like Chrome’s developer tools, this website allowed me to check colors of text and backgrounds to ensure that they would be readable. It provides a precise contrast and ensures that the color combination used will pass AAA level for any size text. The inverse of the below combinations produces the same result.
+* [Contrast Ratio](http://contrast-ratio.com/) - Like Chrome’s developer tools, this website allowed me to check colours of text and backgrounds to ensure that they would be readable. It provides a precise contrast and ensures that the colour combination used will pass AAA level for any size text. The inverse of the below combinations produces the same result.
 
 ### Results:
 
-| Background | Text Color | Result | Example of Use | Additional Comments |
+| Background | Text Colour | Result | Example of Use | Additional Comments |
 | --- | --- | --- | --- | --- |
 | rgb(255, 255, 231) |  rgb(61, 34, 6) | 14.48 |  | Passes AAA level for any size text
 | rgb(111, 78, 51) |  rgb(255, 255, 231) | 7.36 | | Passes AAA level for any size text
@@ -303,7 +303,7 @@ For more information or guidance, please see [GitHub’s Help Section](https://h
 
 ## Credits 
 ### Content
-[Change image on hover](https://www.tutorialrepublic.com/faq/how-to-change-image-on-hover-with-css.php) - Using the Tutorial Republic guide, I was able to correctly position and enable a change of image when a user hovered over the brand’s logo. A logo with inverted colors was used, which stands out against the yellow background, while a drop shadow is also applied on hover. This signified that the logo is a link that can be clicked on, behaviour that is mirrored elsewhere on the site.
+[Change image on hover](https://www.tutorialrepublic.com/faq/how-to-change-image-on-hover-with-css.php) - Using the Tutorial Republic guide, I was able to correctly position and enable a change of image when a user hovered over the brand’s logo. A logo with inverted colours was used, which stands out against the yellow background, while a drop shadow is also applied on hover. This signified that the logo is a link that can be clicked on, behaviour that is mirrored elsewhere on the site.
 
 
 [Hover.css](https://github.com/IanLunn/Hover) - In order to highlight links that could be interacted with, the Hover.css library of effects was used. The grow effect is applied to menu items and buttons, while grow rotate is applied to social media links as they are smaller and the additional rotate makes their interactivity more noticable. 
