@@ -283,7 +283,7 @@ To clone this project and to deploy it locally, follow these steps:
 5 Navigate to the working directory where you would like to place the cloned repository
 6 In the command line, type “git clone” followed by the URL copied previously
 
-For more information or guidance, please see [GitHub’s Help Section](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+For more information or guidance, please see [GitHub’s Help Section](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 
 
@@ -292,13 +292,13 @@ For more information or guidance, please see [GitHub’s Help Section](https://h
 
 ## Credits 
 ### Content
-[Smooth Scroll](https://github.com/cferdinandi/smooth-scroll) - To ensure that links clicked on the menu page (bookmarks to Breakfast, Bread, Pastry, or Cakes sections) scroll smoothly
-
-
-[Change image on hover](https://www.tutorialrepublic.com/faq/how-to-change-image-on-hover-with-css.php) - Using the Tutorial Republic guide, I was able to correctly position and enable a change of image when a user hovered over the brand’s logo. A logo with inverted colors was used, which stands out against the yellow background, while a drop shadow is also applied on hover. This signified that the logo is a link that can be clicked on, behaviour that is mirrored elsewhere on the site
+[Change image on hover](https://www.tutorialrepublic.com/faq/how-to-change-image-on-hover-with-css.php) - Using the Tutorial Republic guide, I was able to correctly position and enable a change of image when a user hovered over the brand’s logo. A logo with inverted colors was used, which stands out against the yellow background, while a drop shadow is also applied on hover. This signified that the logo is a link that can be clicked on, behaviour that is mirrored elsewhere on the site.
 
 
 [Hover.css](https://github.com/IanLunn/Hover) - In order to highlight links that could be interacted with, the Hover.css library of effects was used. The grow effect is applied to menu items and buttons, while grow rotate is applied to social media links as they are smaller and the additional rotate makes their interactivity more noticable. 
+
+
+[Smooth scroll](https://css-tricks.com/almanac/properties/s/scroll-behavior/) - After experimenting with a smooth scroll using JavaScript, I later found a solution on CSS-Tricks using CSS, which worked perfectly.
 
 
 ### Media
