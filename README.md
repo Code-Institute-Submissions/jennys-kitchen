@@ -267,21 +267,22 @@ On successful submission of the order form, a message appears to thank a user fo
 ## Deployment
 ### GitHub Pages
 To deploy this website on GitHub Pages, I followed the following steps:
-1 Navigate to the [project’s repository](https://github.com/mark-obeirne/jennys-kitchen)
-2 Navigate to the [settings page](https://github.com/mark-obeirne/jennys-kitchen/settings)
-3 Scroll down to the section titled GitHub Pages
-4 As my repository was private while I was working on it, I had to choose to make it public
-5 Select Master Branch from the Source dropdown
-6 The GitHub Pages section changed to inform me that my site was ready to be published at https://mark-obeirne.github.io/jennys-kitchen/index.html
+1. Navigate to the [project’s repository](https://github.com/mark-obeirne/jennys-kitchen)
+2. Navigate to the [settings page](https://github.com/mark-obeirne/jennys-kitchen/settings)
+3. Scroll down to the section titled GitHub Pages
+4. As my repository was private while I was working on it, I had to choose to make it public
+5. Select Master Branch from the Source dropdown
+6. The GitHub Pages section changed to inform me that my site was ready to be published at https://mark-obeirne.github.io/jennys-kitchen/index.html
 
 ### Local Deployment
 To clone this project and to deploy it locally, follow these steps:
-1 Navigate to the [project’s repository](https://github.com/mark-obeirne/jennys-kitchen)
-2 Click the green button marked “Clone or download”
-3 Highlight the provided URL and copy it or click the copy button to the right. Alternatively, you can download a .zip file of the repository to run the website locally
-4 Open your terminal
-5 Navigate to the working directory where you would like to place the cloned repository
-6 In the command line, type “git clone” followed by the URL copied previously
+
+1. Navigate to the [project’s repository](https://github.com/mark-obeirne/jennys-kitchen)
+2. Click the green button marked “Clone or download”
+3. Highlight the provided URL and copy it or click the copy button to the right. Alternatively, you can download a .zip file of the repository to run the website locally
+4. Open your terminal
+5. Navigate to the working directory where you would like to place the cloned repository
+6. In the command line, type “git clone” followed by the URL copied previously
 
 For more information or guidance, please see [GitHub’s Help Section](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
