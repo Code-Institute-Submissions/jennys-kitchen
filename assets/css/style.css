@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,600,700|Pinyon+Script&display=swap');
+html {
+  scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Oswald', sans-serif;
