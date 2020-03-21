@@ -193,45 +193,26 @@ A redundant link was highlighted by the presence of the map images that point to
 ### Order.html
 As the text sits atop an overlay with a background image displayed underneath, there are a number of contrast errors highlighted. As with previous pages, these tests do not account for the semi-transparent div element that provides some additional contrast. 
 
-## Meeting User Expectations
-As outlined in the user stories, there are a variety of reasons why someone may visit the website. In addition, we as a business had goals of our own when undertaking this project. Here is how the website meets these goals and expectations.
-
-### As a user
-* “As a coeliac, I want to see the range of products on offer so that I can see if Jenny’s Kitchen is different to other bakeries”
-
-We provide a comprehensive and visual menu that provides customers with an idea of what to expect. While researching competitor websites, we noticed that many relied on text alone - a bagel is a bagel after all - but we wanted to be able to showcase that gluten free food can look (and subsequently taste) just as good as food that contains wheat and gluten.
-
-* “As someone with another allergy on top of coeliac disease, I want to find out what allergens Jenny’s Kitchen’s baked goods contain so that I can make choices to fit my needs”
-
-We provide allergen information next to each menu item, while an allergen menu can be downloaded for browsing at leisure. In addition, we provide the option to order in advance, which allows for greater customisation and allergy friendliness.
-
-* “As a local who doesn’t have an intolerance to gluten, I wish to be able to see what the baked goods look like so that I can see if something looks appealing”
-
-As highlighted above, we provide a visual menu to show off the quality of our baked goods and the talents of our bakers.
-
-* “As someone interested in dropping in, I wish to find out when the bakery is open and where it is so that I can visit it for myself”
-
-The opening hours are displayed in the footer of each webpage along with the address. The About Us page also contains a linked Google Maps image so that people can get directions from their location.
-
-* “As a friend to someone who is coeliac, I want to be able to place an order for a special occasion to surprise them with a tasty birthday cake”
-
-We enable users to order something from us and if further information is required from the customer, we ask for their contact details. This allows us to follow up in any clarification is needed.
-
-### As a business
-* “We want to be able to emphasise our Unique Selling Point (USP) which is that we are a 100% gluten-free bakery and can accommodate other allergies too”
-
-One of the first things that people see when visiting the website is a large carousel that outlines prominently that Jenny’s Kitchen is a 100% gluten-free bakery. This point is drilled into further in the About Us section, which details how we differ from other bakeries and that our gluten-free food tastes amazing to both coeliacs and non-coeliacs alike. 
-
-* “We wish to be able to highlight the talents of our bakers and showcase the range of products on offer”
-
-Our visual menu and pictures throughout the website show off the range of baked goods available and just how talented our bakers are.
-
-* “As a business, we want customers to be able to place orders in advance so that we can resource our ingredients and staff appropriately to avoid disappointment”
-
-While a certain amount of baked goods have to be produced on a daily basis, our order form - that allows customers to specify a collection date - enables us to have some lead time and forewarning regarding orders and potentially busy periods. This means that we can order additional raw materials and schedule our roster accordingly. 
-
-
 ## Testing Process
+This website was also tested manually on a range of devices and internet browsers:
+
+Dell Laptop
+* Google Chrome
+* Internet Explorer 11
+* Microsoft Edge
+* Mozilla Firefox
+
+Mobile
+Samsung Galaxy S10:
+* Google Chrome 
+* Firefox
+* Brave
+
+iPhone 8:
+* Safari
+* Google Chrome
+
+The manual testing process included the following tests and steps:
 ### Navigation Menu:
 
 1. From the index page, visit the menu page (all subsections), about page, and order page from the navigation menu
@@ -299,6 +280,45 @@ While a certain amount of baked goods have to be produced on a daily basis, our 
 8. On the about page, scroll down to the Google Maps section. Ensure that hovering over the heading, “Find us on Google Maps,” causes it to increase in size.
 
 9. On the order page, ensure that hovering over the Submit Order button causes the colours to invert. 
+
+
+## Meeting User Expectations
+As outlined in the user stories, there are a variety of reasons why someone may visit the website. In addition, we as a business had goals of our own when undertaking this project. Here is how the website meets these goals and expectations.
+
+### As a user
+* “As a coeliac, I want to see the range of products on offer so that I can see if Jenny’s Kitchen is different to other bakeries”
+
+We provide a comprehensive and visual menu that provides customers with an idea of what to expect. While researching competitor websites, we noticed that many relied on text alone - a bagel is a bagel after all - but we wanted to be able to showcase that gluten free food can look (and subsequently taste) just as good as food that contains wheat and gluten.
+
+* “As someone with another allergy on top of coeliac disease, I want to find out what allergens Jenny’s Kitchen’s baked goods contain so that I can make choices to fit my needs”
+
+We provide allergen information next to each menu item, while an allergen menu can be downloaded for browsing at leisure. In addition, we provide the option to order in advance, which allows for greater customisation and allergy friendliness.
+
+* “As a local who doesn’t have an intolerance to gluten, I wish to be able to see what the baked goods look like so that I can see if something looks appealing”
+
+As highlighted above, we provide a visual menu to show off the quality of our baked goods and the talents of our bakers.
+
+* “As someone interested in dropping in, I wish to find out when the bakery is open and where it is so that I can visit it for myself”
+
+The opening hours are displayed in the footer of each webpage along with the address. The About Us page also contains a linked Google Maps image so that people can get directions from their location.
+
+* “As a friend to someone who is coeliac, I want to be able to place an order for a special occasion to surprise them with a tasty birthday cake”
+
+We enable users to order something from us and if further information is required from the customer, we ask for their contact details. This allows us to follow up in any clarification is needed.
+
+### As a business
+* “We want to be able to emphasise our Unique Selling Point (USP) which is that we are a 100% gluten-free bakery and can accommodate other allergies too”
+
+One of the first things that people see when visiting the website is a large carousel that outlines prominently that Jenny’s Kitchen is a 100% gluten-free bakery. This point is drilled into further in the About Us section, which details how we differ from other bakeries and that our gluten-free food tastes amazing to both coeliacs and non-coeliacs alike. 
+
+* “We wish to be able to highlight the talents of our bakers and showcase the range of products on offer”
+
+Our visual menu and pictures throughout the website show off the range of baked goods available and just how talented our bakers are.
+
+* “As a business, we want customers to be able to place orders in advance so that we can resource our ingredients and staff appropriately to avoid disappointment”
+
+While a certain amount of baked goods have to be produced on a daily basis, our order form - that allows customers to specify a collection date - enables us to have some lead time and forewarning regarding orders and potentially busy periods. This means that we can order additional raw materials and schedule our roster accordingly. 
+
 
 
 ## Issues and Resolutions
