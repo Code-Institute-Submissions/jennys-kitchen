@@ -278,6 +278,25 @@ While a certain amount of baked goods have to be produced on a daily basis, our 
 
 7. Complete the form in full and click Submit Order. Ensure that the “Thank you for your order” message appears
 
+### Hover Effects
+1. Hover over the Jenny’s Kitchen logo or brand name. Ensure that the image is inverted in colour upon hover.
+
+2. Hover over each navigation menu item. Ensure that they grow in size and change colour slightly.
+
+3. Click on the Menu option in the navigation menu. Hover over each item in the dropdown. Ensure that the colours invert.
+
+4. Scroll down to the footer. Hover over each social media icon. Ensure that they grow in size and rotate slightly.
+
+5. On the index page, hover over each of the buttons that sit in the columns titled “Allergens”, “About Us”, and “Place Order”. Ensure that the button colour darkens.
+
+6. On the menu page, hover over each of the subheadings in the bookmarks section - “Breakfast”, “Bread”, “Pastry”, and “Cake”. Ensure that they slightly increase in size.
+
+7. Scroll down to the end of the menu. Hover over “Download Allergens Menu”. Ensure that this grows in size.
+
+8. On the about page, scroll down to the Google Maps section. Ensure that hovering over the heading, “Find us on Google Maps,” causes it to increase in size.
+
+9. On the order page, ensure that hovering over the Submit Order button causes the colours to invert. 
+
 
 ## Issues and Resolutions
 Over the course of this project, some issues were encountered, which I will detail here. Any outstanding issues are outlined in the “Any Known Issues?” section located below. 
