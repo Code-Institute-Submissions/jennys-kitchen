@@ -135,6 +135,9 @@ There is scope to add tooltips to accompany the images of allergens on menu item
 [Gimp 2](https://www.gimp.org/) - For image manipulation and to create the brand’s logo.
 
 
+[Website Planet Image Compressor](https://www.websiteplanet.com/webtools/imagecompressor/) - To compress images to help with page load times.
+
+
 [Favicon Converter](https://favicon.io/favicon-converter/) - To create the favicon based on the brand logo.
 
 
