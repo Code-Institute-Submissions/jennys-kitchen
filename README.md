@@ -246,7 +246,7 @@ The manual testing process included the following tests and steps:
 3. Click on the “Download Allergens Menu” to ensure that it opens in a new window and allows the user to download a PDF of the menu
 
 
-### Order Form
+### Order Form:
 
 1. Navigate to the Place Order page using the navigation bar
 
@@ -262,7 +262,7 @@ The manual testing process included the following tests and steps:
 
 7. Complete the form in full and click Submit Order. Ensure that the “Thank you for your order” message appears
 
-### Hover Effects
+### Hover Effects:
 1. Hover over the Jenny’s Kitchen logo or brand name. Ensure that the image is inverted in colour upon hover.
 
 2. Hover over each navigation menu item. Ensure that they grow in size and change colour slightly.
