@@ -339,6 +339,8 @@ The three columns on index.html - Allergens, About, and Order Online - did not l
 
 The align-items-stretch class ensured that the columns matched the height of the tallest column. It was then necessary to absolute position the buttons of these columns to ensure that they lined up correctly. This required the additional use of a spacer div, as [suggested by Maarti on StackOverflow](https://stackoverflow.com/a/12408519), which ensured that the buttons did not overlap the text, particularly on mobile devices.
 
+### Internet Explorer 11 Display
+On Internet Explorer 11, the images on the index and menu pages did not respect their boundaries and overflowed containing divs, breaking the flow of the page. Adding w-100 as a class to these images rectified this issue. 
 
 ### Any known issues?
 #### Order Form - Invalid Collection Date
