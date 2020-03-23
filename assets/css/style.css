@@ -109,6 +109,10 @@ text-decoration: none;
     text-align: center;
 }
 
+.navbar-toggler {
+    margin-right: 15px;
+}
+
 /* ---Logo--- */
 
 .navbar-brand {
