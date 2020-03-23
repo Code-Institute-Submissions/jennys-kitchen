@@ -82,6 +82,12 @@ Wireframes that guided the design of this website can be found here:
 * [About](https://raw.githubusercontent.com/mark-obeirne/jennys-kitchen/master/assets/wireframes/About_Desktop.png)
 * [Order](https://raw.githubusercontent.com/mark-obeirne/jennys-kitchen/master/assets/wireframes/Order_Desktop.png)
 
+### Changes to wireframes
+While developing the website, a few small changes were made to the design. Initially, it was intended to have the logo sit over the J in the brand name, which would be displayed on all devices. However, space considerations led to the brand name being hidden on smaller screens, while the logo sits beside the brand name on larger devices. 
+
+
+Space also dictated that Jenny's photo be displayed on top of the content box on all devices. 
+
 ## Features
 ### Image Carousel 
 One of the first elements that greets users to the website is an image carousel, which presents a visual preview of the care and craft of our staff as well as an indication of the type of item that one would be able to order.
