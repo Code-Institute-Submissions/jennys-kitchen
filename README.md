@@ -344,9 +344,11 @@ The align-items-stretch class ensured that the columns matched the height of the
 #### Order Form - Invalid Collection Date
 It is possible to submit the form with a date selected that has already passed.
 
-#### Order Form - Submission of Order Form
-On successful submission of the order form, a message appears to thank a user for their order, and the page refreshes when this dialog box is accepted. If a user places a second order on this page, the dialog box appears as it should, but when accepted the page does not refresh and the order form still has the fields filled.
+#### Order Form - Resubmission of Order Form
+On successful submission of the order form, a message appears to thank a user for their order. On Chrome, this page refreshes with a blank form; a second submission displays the alert box, but does not clear the form when this is dismissed. On Firefox, the page does not reload after the alert box is cleared for the first time.
 
+#### Menu Dropdown - Remains Open (Mobile)
+On the menu page, a user can access other bookmarks via the stuck navbar. Navigating to a different section of the menu page results in the dropdown menu remaining open unless the user presses the toggle button again.
 
 ## Deployment
 ### GitHub Pages
