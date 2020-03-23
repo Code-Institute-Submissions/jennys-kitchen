@@ -44,11 +44,11 @@
 						<span>Menu</span> <span class="sr-only">(current)</span>
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="menu.html#allergens">Allergens</a>
-						<a class="dropdown-item" href="menu.html#breakfast">Breakfast</a>
-						<a class="dropdown-item" href="menu.html#bread">Bread</a>
-						<a class="dropdown-item" href="menu.html#pastry">Pastry</a>
-						<a class="dropdown-item" href="menu.html#cake">Cake</a>
+                        <a data-scroll class="dropdown-item" href="menu.html#allergens">Allergens</a>
+						<a data-scroll class="dropdown-item" href="menu.html#breakfast">Breakfast</a>
+						<a data-scroll class="dropdown-item" href="menu.html#bread">Bread</a>
+						<a data-scroll class="dropdown-item" href="menu.html#pastry">Pastry</a>
+						<a data-scroll class="dropdown-item" href="menu.html#cake">Cake</a>
 					</div>
 				</li>
 				<li class="nav-item">
@@ -67,11 +67,11 @@
 		</div>
 	</nav>
     <!--Navigation arrow, fixed to right hand side of screen, to bring user back to top of page. Data-scroll class makes this smooth-->
-    <a href="#menu-top"><div class="top-button"><span class="sr-only">Back to top of page</span><i class="fas fa-angle-double-up"></i></div></a>
+    <a data-scroll href="#top"><div class="top-button"><span class="sr-only">Back to top of page</span><i class="fas fa-angle-double-up"></i></div></a>
 	<!--Menu header and bookmarks-->
     <section>
         <div class="bg-darkbrown">
-            <h1 class="heading uppercase offwhite">Menu</h1>
+            <h1 class="heading uppercase offwhite" id="top">Menu</h1>
         </div>
 	    <div class="container-fluid bg-darkbrown">
 		    <div class="row">
@@ -526,6 +526,15 @@
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js">
 			</script>
             
+            <!--Smooth Scroll-->
+            <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+            <script>
+	        var scroll = new SmoothScroll('a[href*="#"]');
+            </script>
+           
+
+
 </body>
 
 </html>
