@@ -159,8 +159,8 @@ There is scope to add tooltips to accompany the images of allergens on menu item
 
 | Background | Text Colour | Result | Example of Use | Additional Comments |
 | --- | --- | --- | --- | --- |
-| rgb(255, 255, 231) |  rgb(61, 34, 6) | 14.48 |  | Passes AAA level for any size text
-| rgb(111, 78, 51) |  rgb(255, 255, 231) | 7.36 | | Passes AAA level for any size text
+| rgb(255, 255, 231) |  rgb(61, 34, 6) | 14.48 | Brand name and logo against yellow backdrop | Passes AAA level for any size text
+| rgb(111, 78, 51) |  rgb(255, 255, 231) | 7.36 | Content containers and text | Passes AAA level for any size text
 | rgb(255, 255, 231) | rgb(61, 34, 6, .8) | 7.71 | Other nav menu options that are not the active page | Passes AAA level for any size text
 | rgb(255, 255, 231) | rgb(61, 34, 6, .8) | 7.71 | Non-active nav menu options | Passes AAA level for any size text
 | rgb(255, 255, 231) | rgb(61, 34, 6, .9) | 10.73 | Non-active nav menu options on hover | Passes AAA level for any size text
