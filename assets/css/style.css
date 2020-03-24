@@ -254,6 +254,14 @@ h1,h2,h3,h4 {
     position: relative;
 }
 
+.menu-section .content-block {
+    margin-top: 60px;
+}
+
+.order-section .content-block {
+    margin-bottom: 60px;
+}
+
 .img-block {
     margin-bottom: 15px;
 }
@@ -629,7 +637,7 @@ footer:focus, footer:hover {
 /* ---Footer--- */
 
 footer {
-
+    margin-top: 15px;
 }
 
 .footer-details {
@@ -685,6 +693,18 @@ footer a {
     .order-form {
         width: 80%;
     }
+
+}
+
+/* Realign content blocks on index page on larger devices */
+@media screen and (min-width: 768px) {
+     .order-section .content-block {
+        margin-bottom: 30px;
+    }
+
+     .menu-section .content-block {
+        margin-top: 30px;
+    }    
 }
 
 @media screen and (min-width: 1200px) {
