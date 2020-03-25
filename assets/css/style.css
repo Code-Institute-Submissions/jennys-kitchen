@@ -525,6 +525,9 @@ h1,h2,h3,h4 {
     width: 100%;
     background-color: rgba(0,0,0,0.6);
 }
+.fullwidth {
+    width: 100%;
+}
 
 #jumbotron {
     background-color: transparent;
